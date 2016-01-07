@@ -36,4 +36,21 @@ app.controller("courseList", function($scope) {
 			workload : 40 //in hours
 		}
 	];
+
+	$scope.search = function (course) {
+		if (!$scope.courseFilter) {
+			return true;
+		}
+		var tags = $scope.courseFilter.tags.split(" ");
+		for (var courseTag = course.tags.length - 1; courseTag >= 0; courseTag--) {
+			for (var filterTag = 0; filterTag < tags.length; filterTag++) {
+				console.log(course.tags[courseTag] + ", " + tags[filterTag]);
+				console.log(course.tags[courseTag].indexOf(tags[filterTag]));
+				if (course.tags[courseTag].indexOf(tags[filterTag]) > -1) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
 });
