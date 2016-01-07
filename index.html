@@ -11,10 +11,10 @@
 </head>
 
 <body ng-app="campusApp">
-  <input ng-model="courseTag" placeholder="Ache seu curso">
+  <input id="tagfilter" ng-model="courseFilter.tags" placeholder="Ache seu curso">
   <!-- lista de cursos -->
   <div id="courses" ng-controller="courseList">
-  	<div ng-repeat="course in courses">
+  	<div ng-repeat="course in courses | filter:courseFilter">
 		<h1>{{course.name}}</h1>
 		<img ng-src="{{course.image}}"
 		<p>{{course.details}}</p>

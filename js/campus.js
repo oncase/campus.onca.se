@@ -3,7 +3,7 @@ var app = angular.module("campusApp", []);
 app.controller("courseList", function($scope) {
 	$scope.courses = [
 		{
-			name : "Dashboards com Pentaho",
+			name : "Lorem ipsum",
 			details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit." + 
 				"Nunc eu lorem quis lacus cursus lacinia. Nunc fringilla luctus " +
 				"volutpat. Nunc dignissim eros ac urna dapibus viverra at id diam."+
@@ -20,7 +20,7 @@ app.controller("courseList", function($scope) {
 			workload : 20 //in hours
 		},
 		{
-			name : "Pentaho Analytics Bootcamp",
+			name : "dolor sit amet",
 			details : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "+
 				"In vestibulum risus eu lorem aliquam, in sollicitudin magna lobortis"+
 				". Aenean tincidunt feugiat orci, ut ultrices dolor iaculis scelerisque."+
