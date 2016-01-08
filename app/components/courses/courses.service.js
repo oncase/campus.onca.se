@@ -16,22 +16,38 @@ define(
 						"Intermediário" : {color : "#26C6DA"},
 						"Avançado" : {color : "#F44336"},
 						"default" : {color : "#444"}
-					};
+					},
+					_audiences = [
+						"Business User", "Business Analyst", "Data Analyst",
+						"Software Architect", "Pentaho Admin", "Pentaho Support"
+					];
 
       function _getCourses(){
         return _courses;
       }
+
+			function _getLevels(){
+				var __levels = angular.copy(_levels);
+				delete __levels["default"];
+				return __levels;
+			}
 
 			function _getColorForLevel(level){
 				return typeof _levels[level] === "undefined" ? _levels["default"].color
 						: _levels[level].color;
 			}
 
+			function _getAudiences(){
+				return _audiences;
+			}
+
 
 
       return {
         getCourses : _getCourses,
-				getColorForLevel : _getColorForLevel
+				getColorForLevel : _getColorForLevel,
+				getLevels : _getLevels,
+				getAudiences : _getAudiences
       }
 
     }]);

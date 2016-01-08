@@ -1,4 +1,5 @@
-<md-card flex="33">
+<div flex="33">
+  <md-card >
   <md-card-header>
     <md-card-avatar>
       <md-icon class="material-icons ">{{course.icon}}</md-icon>
@@ -12,7 +13,7 @@
   <md-card-title>
     <md-card-title-text>
       <span class="md-headline">N&iacute;vel: <span class="campus-level-chip" style="background-color:{{courseCtrl.getColorForLevel(course.level)}}">{{course.level}}</span></span>
-      <span class="md-subhead">{{course.headline}}</span>
+      <span class="md-subhead campus-elipsis-3l">{{course.headline}}</span>
       <!--    <md-divider></md-divider>
    <md-chips readonly="true" ng-model="course.tags">
         <md-chip-template>{{$chip}}</md-chip-template>
@@ -32,3 +33,4 @@
         </md-card-actions>
 
 </md-card>
+</div>

@@ -12,7 +12,7 @@
         "level": "Iniciante",
         "name": "Business Analytics User Console",
         "headline": "This course introduces the Pentaho Business Analytics suite of products to non-technical users.",
-        "description": "This course introduces the Pentaho Business Analytics suite of products to non-technical users who rely on business intelligence solutions to make informed business decisions.\n\nThis course also represents the starting point for those following the Business Analytics and Data Integration learning paths and is therefore a prerequisite for more advanced topics.\n\nPentaho Business Analytics is a powerful suite of business intelligence applications that enables users to intuitively access, explore and analyze all data without depending on IT. Pentaho provides:\n\n - Point and click access to any data\n - Quick data discovery and analysis\n - Rich and interactive dashboards\n - Mobile analytical reporting",
+        "description": "This course introduces the Pentaho Business Analytics suite of products to non-technical users who rely on business intelligence solutions to make informed business decisions.\n\nThis course also represents the starting point for those following the Business Analytics and Data Integration learning paths and is therefore a prerequisite for more advanced topics.\n\nPentaho Business Analytics is a powerful suite of business intelligence applications that enables users to intuitively access, explore and analyze all data without depending on IT. Pentaho provides:\n\n* Point and click access to any data\n* Quick data discovery and analysis\n* Rich and interactive dashboards\n* Mobile analytical reporting",
         "icon": "dashboard",
         "image": "assets/img/ba1000.jpg",
         "tags": [
@@ -58,5 +58,114 @@
             }
         ],
         "workload": 16
+    },
+    {
+        "id": "BA3000",
+        "audience": [
+            "Business Analyst",
+            "Data Analyst"
+        ],
+        "level": "Iniciante",
+        "name": "Business Analytics Data Modeling",
+        "headline": "Business Analytics Data Modeling provides an overview of using Metadata Editor and Schema Workbench to create data models used by Interactive Reporting, Analyzer, and Report Designer.",
+        "description": "Business Analytics Data Modeling provides an overview of using Metadata Editor and Schema Workbench to create data models used by Interactive Reporting, Analyzer, and Report Designer.\n\nThrough a mixture of interactive, instructor-led activities and hands-on exercises, students learn to create metadata models with Metadata Editor, and Mondrian schema (cubes and stars) with Schema Workbench.\n\nNote: The Business Analytics courses do not cover Data Integration or Administration. For more information on Data Integration, see course DI1000 Pentaho Data Integration Fundamentals. For more information on Administration, see course AD1000 Installation and Administration.",
+        "icon": "device_hub",
+        "image": "assets/img/ba3000.jpg",
+        "tags": [
+            "Plataforma",
+            "Pentaho",
+            "Report Designer",
+            "Relatórios"
+        ],
+        "classes": [
+            {
+                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
+                "where": "Brasilia, DF",
+                "dateTo": "2016-01-26",
+                "dateFrom": "2016-01-23"
+            }
+        ],
+        "workload": 16
+    },
+    {
+        "id": "CT1000",
+        "audience": [
+            "Business Analyst"
+        ],
+        "level": "Intermediário",
+        "name": "CTools Fundamentals",
+        "headline": "CTools Fundamentals teaches you how to develop pixel-perfect dashboards that conform to your organization’s brand identity and provide a refined end-user experience.",
+        "description": "CTools Fundamentals teaches you how to develop pixel-perfect dashboards that conform to your organization’s brand identity and provide a refined end-user experience.\n\nLearn an easy and fast way to create dynamic dashboards which allow users to explore and understand large amounts of data using a variety of charts and tables to drill into the exact data they want.",
+        "icon": "trending_up",
+        "image": "assets/img/ct1000.jpg",
+        "tags": [
+            "Plataforma",
+            "Pentaho",
+            "Report Designer",
+            "Relatórios"
+        ],
+        "classes": [
+            {
+                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
+                "where": "Brasilia, DF",
+                "dateTo": "2016-01-26",
+                "dateFrom": "2016-01-23"
+            }
+        ],
+        "workload": 16
+    },
+    {
+        "id": "DI1000",
+        "audience": [
+            "Data Analyst"
+        ],
+        "level": "Intermediário",
+        "name": "Pentaho Data Integration Fundamentals",
+        "headline": "The volume, variety and velocity of data are increasing rapidly.  Organizations need fast and easy-to-use tools to harness data for actionable insight.",
+        "description": "The volume, variety and velocity of data are increasing rapidly.  Organizations need fast and easy-to-use tools to harness data for actionable insight. One of the biggest challenges facing organizations today is the requirement to provide a consistent, single version of the truth across all sources of information in an analytics-ready format. \n\nWith powerful data extract, transform and load (ETL) capabilities, an intuitive and rich graphical design environment, and an open and standards-based architecture, Pentaho Data Integration is increasingly the choice over proprietary and homegrown data integration tools.",
+        "icon": "trending_up",
+        "image": "assets/img/di1000.jpg",
+        "tags": [
+            "Plataforma",
+            "Pentaho",
+            "Report Designer",
+            "Relatórios"
+        ],
+        "classes": [
+            {
+                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
+                "where": "Brasilia, DF",
+                "dateTo": "2016-01-26",
+                "dateFrom": "2016-01-23"
+            }
+        ],
+        "workload": 24
+    },
+    {
+        "id": "DI2000",
+        "audience": [
+            "Data Analyst"
+        ],
+        "level": "Avançado",
+        "name": "Pentaho and Hadoop Framework Fundamentals",
+        "headline": "This course is designed to introduce you to various big data concepts with the Hadoop framework of technologies and Pentaho products.",
+        "description": "This course is designed to introduce you to various big data concepts with the Hadoop framework of technologies and Pentaho products. Building upon Pentaho Data Integration Fundamentals, you will learn how Pentaho works with the following Hadoop Framework technologies:\nHDFSSqoopPigOozieMapReduceYARNHiveImpalaHBaseFlume\nThis course focuses heavily on labs to allow you practical hands-on application of the topics covered in each section.\n",
+        "icon": "fitness_center",
+        "image": "assets/img/di2000.jpg",
+        "tags": [
+            "Plataforma",
+            "Pentaho",
+            "Report Designer",
+            "Relatórios"
+        ],
+        "classes": [
+            {
+                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
+                "where": "Brasilia, DF",
+                "dateTo": "2016-01-26",
+                "dateFrom": "2016-01-23"
+            }
+        ],
+        "workload": 24
     }
 ]

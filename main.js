@@ -7,6 +7,8 @@ require.config({
     ngMaterial : '../node_modules/angular-material/angular-material.min',
     text : '../node_modules/requirejs-plugins/lib/text',
     json : '../node_modules/requirejs-plugins/src/json',
+    ngSanitize : '../node_modules/angular-sanitize/angular-sanitize.min',
+    showdown : '../node_modules/showdown/dist/showdown'
 
   },
   shim: {
@@ -24,6 +26,12 @@ require.config({
     ngMaterial : {
       exports: "ngMaterial",
       deps: [ "angular", "ngAnimate", "ngAria" ]
+    },
+    ngSanitize : {
+      deps : ["angular"]
+    },
+    showdown : {
+      exports : "Showdown"
     }
   },
   priority: ['angular']
@@ -38,7 +46,7 @@ require([
           'ngMaterial',
           'app'
         ],
-        function(angular, ngAnimate, ngAria, ngMaterial, app, leaflet, oclazyload) {
+        function(angular, ngAnimate, ngAria, ngMaterial) {
 
     'use strict';
 
