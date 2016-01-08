@@ -1,0 +1,17 @@
+/* some dummy css just to fill */
+body {
+  background-color:#ddd;
+}
+
+.campus-general-bg{
+  background-color:#ddd;
+}
+
+
+.campus-level-chip{
+  padding: 4px 10px;
+  color:#fff;
+  border-radius:30px;
+  margin-left:10px;
+  font-size:16px;
+}

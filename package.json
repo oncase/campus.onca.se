@@ -5,9 +5,18 @@
   "author": "Marcello Pontes <balaum@gmail.com>",
   "license": "MIT",
   "repository": "oncase/oncase.com.br",
-  "dependencies": {
+  "devDependencies": {
     "connect": "3.4.0",
     "express": "~4.8.8"
+  },
+  "dependencies" : {
+    "requirejs" : "^2.1.22",
+    "requirejs-plugins"  : "^1.0.2",
+    "angular" : "^1.4.7",
+    "angular-animate" : "^1.4.7",
+    "angular-aria" : "^1.4.7",
+    "angular-material" : "^1.0.1",
+    "material-design-icons" : "^2.1.3" 
   },
   "engines": {
     "node": ">= 0.8.0"

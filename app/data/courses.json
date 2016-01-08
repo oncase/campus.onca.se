@@ -1,0 +1,62 @@
+[
+    {
+        "id": "BA1000",
+        "audience": [
+            "Business Analyst",
+            "Data Analyst",
+            "Pentaho Administrator",
+            "Software Architect",
+            "Administrator",
+            "Business User"
+        ],
+        "level": "Iniciante",
+        "name": "Business Analytics User Console",
+        "headline": "This course introduces the Pentaho Business Analytics suite of products to non-technical users.",
+        "description": "This course introduces the Pentaho Business Analytics suite of products to non-technical users who rely on business intelligence solutions to make informed business decisions.\n\nThis course also represents the starting point for those following the Business Analytics and Data Integration learning paths and is therefore a prerequisite for more advanced topics.\n\nPentaho Business Analytics is a powerful suite of business intelligence applications that enables users to intuitively access, explore and analyze all data without depending on IT. Pentaho provides:\n\n - Point and click access to any data\n - Quick data discovery and analysis\n - Rich and interactive dashboards\n - Mobile analytical reporting",
+        "icon": "dashboard",
+        "image": "assets/img/ba1000.jpg",
+        "tags": [
+            "Plataforma",
+            "Pentaho",
+            "BI Server",
+            "Administração",
+            "Analytics"
+        ],
+        "classes": [
+            {
+                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
+                "where": "Brasilia, DF",
+                "dateTo": "2016-01-26",
+                "dateFrom": "2016-01-23"
+            }
+        ],
+        "workload": 40
+    },
+    {
+        "id": "BA2000",
+        "audience": [
+            "Business Analyst"
+        ],
+        "level": "Iniciante",
+        "name": "Business Analytics Report Designer",
+        "headline": "Business Analytics Report Designer teaches you how to design custom reports with Report Designer.",
+        "description": "Business Analytics Report Designer teaches you how to design, create and publish custom reports with Report Designer. From connecting to data sources to adding design elements, you will learn all of the necessary steps to produce visually appealing reports for your organization. This course helps prepare you for the Pentaho Solution Consultant Exam.\n\nNote: The Business Analytics courses do not cover Data Integration or Administration.\n\nFor more information on Data Integration, see course DI1000 Pentaho Data Integration Fundamentals. For more information on Administration, see course AD1000 Installation and Administration.",
+        "icon": "receipt",
+        "image": "assets/img/ba2000.jpg",
+        "tags": [
+            "Plataforma",
+            "Pentaho",
+            "Report Designer",
+            "Relatórios"
+        ],
+        "classes": [
+            {
+                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
+                "where": "Brasilia, DF",
+                "dateTo": "2016-01-26",
+                "dateFrom": "2016-01-23"
+            }
+        ],
+        "workload": 16
+    }
+]
