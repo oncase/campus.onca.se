@@ -25,9 +25,21 @@
         "classes": [
             {
                 "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
+                "where": "Recife, PE",
+                "dateTo": "2015-12-26",
+                "dateFrom": "2015-12-23"
+            },
+            {
+                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
                 "where": "Brasilia, DF",
                 "dateTo": "2016-01-26",
                 "dateFrom": "2016-01-23"
+            },
+            {
+                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
+                "where": "Brasilia, DF",
+                "dateTo": "2016-02-26",
+                "dateFrom": "2016-02-23"
             }
         ],
         "workload": 40
@@ -50,12 +62,6 @@
             "Relatórios"
         ],
         "classes": [
-            {
-                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
-                "where": "Brasilia, DF",
-                "dateTo": "2016-01-26",
-                "dateFrom": "2016-01-23"
-            }
         ],
         "workload": 16
     },
@@ -123,7 +129,7 @@
         "name": "Pentaho Data Integration Fundamentals",
         "headline": "The volume, variety and velocity of data are increasing rapidly.  Organizations need fast and easy-to-use tools to harness data for actionable insight.",
         "description": "The volume, variety and velocity of data are increasing rapidly.  Organizations need fast and easy-to-use tools to harness data for actionable insight. One of the biggest challenges facing organizations today is the requirement to provide a consistent, single version of the truth across all sources of information in an analytics-ready format. \n\nWith powerful data extract, transform and load (ETL) capabilities, an intuitive and rich graphical design environment, and an open and standards-based architecture, Pentaho Data Integration is increasingly the choice over proprietary and homegrown data integration tools.",
-        "icon": "trending_up",
+        "icon": "usb",
         "image": "assets/img/di1000.jpg",
         "tags": [
             "Plataforma",

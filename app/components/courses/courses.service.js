@@ -41,13 +41,24 @@ define(
 				return _audiences;
 			}
 
+			function _getCourse(courseId){
+
+				for(var x = 0 ; x < _courses.length ; x++)
+					if(courseId === _courses[x].id)
+						return _courses[x];
+
+				return null;
+
+			}
+
 
 
       return {
         getCourses : _getCourses,
 				getColorForLevel : _getColorForLevel,
 				getLevels : _getLevels,
-				getAudiences : _getAudiences
+				getAudiences : _getAudiences,
+				getCourse  : _getCourse
       }
 
     }]);

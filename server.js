@@ -1,5 +1,7 @@
 var express = require('express');
 var server = express();
+var rewrite = require('express-urlrewrite');
+
 
 server.use(express.static('./'));
 

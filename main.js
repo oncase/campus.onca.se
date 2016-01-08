@@ -8,7 +8,8 @@ require.config({
     text : '../node_modules/requirejs-plugins/lib/text',
     json : '../node_modules/requirejs-plugins/src/json',
     ngSanitize : '../node_modules/angular-sanitize/angular-sanitize.min',
-    showdown : '../node_modules/showdown/dist/showdown'
+    showdown : '../node_modules/showdown/dist/showdown',
+    ngRouter : '../node_modules/angular-ui-router/release/angular-ui-router.min'
 
   },
   shim: {
@@ -32,6 +33,9 @@ require.config({
     },
     showdown : {
       exports : "Showdown"
+    },
+    ngRouter : {
+      deps: ["angular"]
     }
   },
   priority: ['angular']
@@ -44,6 +48,7 @@ require([
           'ngAnimate',
           'ngAria',
           'ngMaterial',
+          'ngRouter',
           'app'
         ],
         function(angular, ngAnimate, ngAria, ngMaterial) {

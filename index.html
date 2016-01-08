@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="campusApp">
 <head>
+  <base href="/courses">
   <meta charset="utf-8">
 
   <title>Oncase Campus</title>
@@ -15,20 +16,17 @@
 
 </head>
 
-<body ng-app="campusApp">
+<body>
 <md-content class="campus-content-wrapper">
 
     <!-- Header -->
     <md-toolbar class="md-tall md-accent " md-scroll-shrink ng-if="true" >
-      <h2 class="md-toolbar-tools">
+      <h1 class="md-toolbar-tools ">
         <span>Oncase Campus</span>
-      </h2>
+      </h1>
     </md-toolbar>
 
-    <md-subheader class="md-whiteframe-2dp">
-        Cursos dispon&iacute;veis
-    </md-subheader>
-    <courses-list></<courses-list>
+    <div ui-view></div>
 
 </md-content>
 </body>

@@ -8,6 +8,8 @@ define(
     'components/courses/list.controller',
     'components/courses/course.directive',
     'components/courses/course.controller',
+    'components/courses/course.details.controller',
+    'components/courses/course.details.directive',
     'components/courses/courses.service',
 	],
 	function(angular){
