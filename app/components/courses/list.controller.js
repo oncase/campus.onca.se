@@ -12,7 +12,6 @@ define(
       function(  CoursesService ){
 
 
-
         this.getCourses = function(){
           return CoursesService.getCourses();
         };

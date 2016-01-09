@@ -10,6 +10,9 @@
     </md-card-header-text>
   </md-card-header>
   <img ui-sref="courses.details({courseId : course.id })" ng-src="{{course.image}}" class="campus-pointer md-card-image" alt="Washed Out">
+  <div class="campus-card-img-subtitle">
+    <span class="md-caption">Pr&oacute;xima turma: <strong>{{ courseCtrl.getNextClass(course) }}</strong></span>
+  </div>
   <md-card-title>
     <md-card-title-text>
       <span class="md-body-2">
@@ -17,16 +20,12 @@
         <span class="campus-level-chip" style="background-color:{{courseCtrl.getColorForLevel(course.level)}}">{{course.level}}</span>
       </span>
       <span class="md-subhead campus-elipsis-3l">{{course.headline}}</span>
-      <!--    <md-divider></md-divider>
-   <md-chips readonly="true" ng-model="course.tags">
-        <md-chip-template>{{$chip}}</md-chip-template>
-      </md-chips> -->
-      <span class="md-caption">Pr&oacute;xima turma prevista: <strong>{{ courseCtrl.getNextClass(course) }}</strong></span>
+
     </md-card-title-text>
   </md-card-title>
         <md-card-actions layout="row" layout-align="start center">
           <md-card-icon-actions>
-            <md-button class="md-icon-button" aria-label="Favorite">
+            <md-button class="md-icon-button" aria-label="Favorite" ng-click="courseCtrl.showSharing($event, course)">
               <md-icon class="material-icons ">share</md-icon>
             </md-button>
             <md-button class="md-icon-button" aria-label="Share">
@@ -35,6 +34,5 @@
           </md-card-icon-actions>
           <md-button ui-sref="courses.details({courseId : course.id })">Detalhes</md-button>
         </md-card-actions>
-
 </md-card>
 </div>

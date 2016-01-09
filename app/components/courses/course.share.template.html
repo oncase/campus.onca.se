@@ -1,0 +1,26 @@
+<md-dialog aria-label="Mango (Fruit)"  ng-cloak>
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2><md-icon class="material-icons ">link</md-icon> {{cshareCtrl.course.name}} </h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="cshareCtrl.close()">
+          <md-icon aria-label="account_circle" class="material-icons">
+            close
+          </md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+    <md-dialog-content>
+      <div class="md-dialog-content">
+        <input class="campus-sharing-input" type="url" ng-model="cshareCtrl.url" ng-click="cshareCtrl.onTextClick($event)"></input>
+      </div>
+    </md-dialog-content>
+    <md-dialog-actions layout="row">
+      <span flex></span>
+      <md-button ng-click="cshareCtrl.close()" style="margin-right:20px;">
+        Fechar
+      </md-button>
+    </md-dialog-actions>
+  </form>
+</md-dialog>

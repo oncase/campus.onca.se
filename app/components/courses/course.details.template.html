@@ -3,7 +3,7 @@
   <md-toolbar>
     <div class="md-toolbar-tools">
       <h2>
-        {{detailsCtrl.course.name}}
+        {{detailsCtrl.course.name}} [{{detailsCtrl.course.id}}]
       </h2>
       <span flex></span>
       <md-button class="md-icon-button" ui-sref="courses">
@@ -13,7 +13,106 @@
       </md-button>
     </div>
   </md-toolbar>
-  <md-dialog-content>
+  <md-dialog-content layout-margin layout-padding>
+
+    <!-- Image and structured info -->
+    <div layout="row" layout-align="space-around start">
+
+
+      <!-- Image and structured info -->
+      <div flex="40" class="campus-course-img-detail-wrapper">
+        <img align="left" ng-src="{{detailsCtrl.course.image}}" class="campus-course-img-detail">
+      </div>
+
+
+      <!-- Info chips -->
+      <div flex="50" class="campus-course-img-detail-wrapper">
+        <div class="campus-course-info-label">N&iacute;vel:</div>
+
+        <md-chips readonly="true" ng-model="detailsCtrl.levelChip">
+          <md-chip-template ng-style="{'color' : detailsCtrl.getColorForLevel() }" class="campus-course-info-chip">{{$chip}}</md-chip-template>
+        </md-chips>
+
+        <div class="campus-course-info-label campus-space-before">Audi&ecirc;ncia:</div>
+        <md-chips readonly="true" ng-model="detailsCtrl.course.audience">
+          <md-chip-template  class="campus-course-info-chip">{{$chip}}</md-chip-template>
+        </md-chips>
+
+        <div class="campus-course-info-label campus-space-before">Tags:</div>
+        <md-chips readonly="true" ng-model="detailsCtrl.course.tags">
+          <md-chip-template class="campus-course-info-chip">{{$chip}}</md-chip-template>
+        </md-chips>
+
+        <div class="campus-course-info-label campus-space-before">Carga hor&aacute;ria:</div>
+        <md-chips readonly="true" ng-model="detailsCtrl.workloadChip">
+          <md-chip-template class="campus-course-info-chip">{{$chip}}h</md-chip-template>
+        </md-chips>
+      </div>
+    </div>
+
+
+
+
+
+        <!-- Course description -->
+
+        <div layout="row" layout-align="space-around start" class="campus-course-details-heading">
+          <div flex="95" class="">
+            Descri&ccedil;&atilde;o
+          </div>
+        </div>
+        <div layout="row" layout-align="space-around start">
+
+          <div flex="95" class="campus-course-img-detail-wrapper" btf-markdown="detailsCtrl.course.description">
+          </div>
+
+        </div>
+
+        <!-- Next classes -->
+
+        <div layout="row" layout-align="space-around start" class="campus-course-details-heading">
+          <div flex="95" class="">
+            Pr&oacute;ximas Turmas
+          </div>
+        </div>
+        <div layout="row" layout-align="space-around start">
+
+          <div flex="95" class="">
+                <md-list>
+                    <md-list-item class="md-2-line" ng-repeat="cl in detailsCtrl.course.classes | orderBy : 'dateFrom' ">
+                      <md-icon aria-label="account_circle" class="md-avatar-icon material-icons">
+                        place
+                      </md-icon>
+                      <div class="md-list-item-text">
+                        <h3>{{ cl.where }}</h3>
+                        <p>{{ cl.dateFrom | date:"dd/MM/yyyy" }} a {{ cl.dateTo | date:"dd/MM/yyyy" }}</p>
+                      </div>
+                      <md-button class="md-icon-button" ng-click="detailsCtrl.showClassDetails($event, cl)">
+                        <md-icon aria-label="account_circle" class="material-icons">
+                          info
+                        </md-icon>
+                      </md-button>
+                    </md-list-item>
+
+
+                    <md-list-item class="md-2-line" ng-if="!detailsCtrl.course.classes.length">
+                      <md-icon aria-label="account_circle" class="md-avatar-icon material-icons">
+                        place
+                      </md-icon>
+                      <div class="md-list-item-text">
+                        <h3>Na sua cidade</h3>
+                        <p>A definir. Veja maiores informa&ccedil;&otilde;es aqui.</p>
+                      </div>
+                      <md-button class="md-icon-button" ng-click="detailsCtrl.showClassEmpty($event)">
+                        <md-icon aria-label="account_circle" class="material-icons">
+                          info
+                        </md-icon>
+                      </md-button>
+                    </md-list-item>
+                </md-list>
+          </div>
+
+        </div>
 
   </md-dialog-content>
 </md-dialog>

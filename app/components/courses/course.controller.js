@@ -8,10 +8,11 @@ define(
     console.log("[campus.oncase] course.controller required");
 
     return coursesModule.controller("CourseController", [
-								"CoursesService", "$filter",
-			function(  CoursesService ,  $filter ){
+								"CoursesService", "$filter", "$mdDialog",
+			function(  CoursesService ,  $filter ,  $mdDialog){
 
-				var _defaultClassLabel = "A definir";
+				var _defaultClassLabel = "A definir",
+						self = this;
 
 				this.getColorForLevel = CoursesService.getColorForLevel;
 
@@ -30,11 +31,35 @@ define(
 
 					return _defaultClassLabel;
 
-
 				};
 
+
+			  this.showSharing = function(ev, course) {
+					    $mdDialog.show({
+					      controller: function($scope, $mdDialog, course){
+									this.course = course;
+									this.url = "http://campus.onca.se/courses/"+course.id;
+									this.close = function(){
+										$mdDialog.cancel();
+									};
+									this.onTextClick = function ($event) {
+									  $event.target.select();
+									};
+								},
+								controllerAs : "cshareCtrl",
+					      templateUrl: 'app/components/courses/course.share.template.html',
+					      parent: angular.element(document.body),
+					      targetEvent: ev,
+					      clickOutsideToClose:true,
+					      fullscreen: true,
+								locals : {
+									course : course
+								}
+					    });
+			  };
+
     	}
-		]);
+		])
 
 
 	}

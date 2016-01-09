@@ -1,0 +1,45 @@
+<md-dialog aria-label="Mango (Fruit)"  ng-cloak>
+  <form>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2><md-icon class="material-icons ">info</md-icon> {{eClassCtrl.course.name}} </h2>
+        <span flex></span>
+        <md-button class="md-icon-button" ng-click="eClassCtrl.close()">
+          <md-icon aria-label="account_circle" class="material-icons">
+            close
+          </md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+    <md-dialog-content layout-margin layout-padding>
+      <div layout="column" layout-margin>
+         <md-list-item class="md-2-line" style="background-color:#eee;">
+                  <md-icon aria-label="account_circle" class="md-avatar-icon material-icons">
+                    place
+                  </md-icon>
+
+                  <div class="md-list-item-text">
+                    <h3 class="">Na sua cidade</h3>
+                    <p class="md-caption">Leve o curso para a sua regi&atilde;o</p>
+                  </div>
+          </md-list-item>
+        <div>
+            Entre em contato com +55-81-3077-8558;
+            <br><br>
+            Escreva pra contato@oncase.com.br;
+            <br><br>
+            Retornamos, dentro do hor&aacute;rio comercial em at&eacute; 2h.
+
+        </div>
+
+      </div>
+
+    </md-dialog-content>
+    <md-dialog-actions layout="row">
+      <span flex></span>
+      <md-button ng-click="eClassCtrl.close()" style="margin-right:20px;">
+        Fechar
+      </md-button>
+    </md-dialog-actions>
+  </form>
+</md-dialog>
