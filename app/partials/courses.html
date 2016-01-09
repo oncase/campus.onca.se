@@ -1,10 +1,10 @@
-<md-subheader class="campus-list-subheader md-whiteframe-2dp">
+<md-subheader class="campus-list-subheader md-whiteframe-2dp" ng-init="showFilters=false;">
   <div layout="row" >
     <div flex="none" class="campus-subheader-inner-div">Cursos dispon&iacute;veis</div>
     <div flex class="campus-subheader-inner-div text-right">
 
 
-      <md-button class="campus-space-left-2 pull-right campus-subheader-button" ng-click="eClassCtrl.close()">
+      <md-button ng-click="showFilters=!showFilters" class="campus-space-left-2 pull-right campus-subheader-button" ng-click="eClassCtrl.close()">
         <md-icon aria-label="account_circle" class="material-icons">
           tune
         </md-icon>
@@ -26,6 +26,9 @@
 
 
     </div>
+  </div>
+  <div class="campus-filters-pane" ng-class="{'campus-hidden' : !showFilters}">
+    <div class="campus-filters-pane-inner">Filtro<br>Filtro<br>Filtro<br>Filtro</div>
   </div>
 </md-subheader>
 <courses-list></<courses-list>

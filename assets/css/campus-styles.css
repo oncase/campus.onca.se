@@ -170,3 +170,27 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
 .campus-subheader-button{
   margin:2px;
 }
+
+
+
+.campus-filters-pane{
+  max-height:120px;
+  overflow: hidden;
+}
+
+.campus-filters-pane.campus-hidden{
+    max-height:0px;
+
+}
+
+.campus-filters-pane {
+  -webkit-transition: max-height 200ms ease-in-out;
+  -moz-transition: max-height 200ms ease-in-out;
+  -o-transition: max-height 200ms ease-in-out;
+  transition: max-height 200ms ease-in-out;
+}
+
+.campus-filters-pane-inner{
+  border-top:solid 1px #ccc;
+  padding:20px 0;
+}
