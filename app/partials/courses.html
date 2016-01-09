@@ -1,5 +1,31 @@
+<md-subheader class="campus-list-subheader md-whiteframe-2dp">
+  <div layout="row">
+    <div flex="50" class="campus-subheader-inner-div">Cursos dispon&iacute;veis</div>
+    <div flex="50" class="campus-subheader-inner-div text-right">
 
-<md-subheader class="md-whiteframe-2dp">
-    Cursos dispon&iacute;veis
+
+      <md-button class="campus-space-left-2 pull-right campus-subheader-button" ng-click="eClassCtrl.close()">
+        <md-icon aria-label="account_circle" class="material-icons">
+          tune
+        </md-icon>
+        Filtros
+      </md-button>
+
+
+      <div class="pull-right campus-space-right-2">
+        <md-icon aria-label="account_circle" class="material-icons">
+          swap_vert
+        </md-icon>
+
+        <md-select class="campus-noborder campus-upper campus-nomargin pull-right text-left" placeholder="Ordenar" ng-model="user" >
+          <md-option class="campus-noborder" ng-value="'level'">N&iacute;vel crescente</md-option>
+          <md-option class="campus-noborder" ng-value="'-level'">N&iacute;vel decrescente</md-option>
+          <md-option class="campus-noborder" ng-value="'user2'">Turmas pr&oacute;ximas</md-option>
+        </md-select>
+      </div>
+
+
+    </div>
+  </div>
 </md-subheader>
 <courses-list></<courses-list>
