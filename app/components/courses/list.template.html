@@ -4,7 +4,7 @@
 </div>
  <div class="md-padding campus-general-bg" layout-wrap layout-padding layout="row" layout-align="start start" ng-cloak>
 
-   <course ng-repeat="course in listCtrl.getCourses();"></course>
+   <course ng-repeat="course in listCtrl.getCourses() | orderBy:listCtrl.getOrderBy()"></course>
 
 </div>
 

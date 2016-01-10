@@ -29,7 +29,9 @@ define(
 			$stateProvider
 			.state('courses', {
 				url: "/courses",
-				templateUrl: "app/partials/courses.html"
+				templateUrl: "app/partials/courses.html",
+				controller:"CoursesRouteController",
+				controllerAs:"crouteCtrl"
 			})
       .state('courses.details', {
         url: "/:courseId",

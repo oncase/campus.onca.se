@@ -17,10 +17,11 @@
           swap_vert
         </md-icon>
 
-        <md-select class="campus-noborder campus-upper campus-nomargin pull-right text-left" placeholder="Ordenar" ng-model="user" >
-          <md-option class="campus-noborder" ng-value="'level'">N&iacute;vel crescente</md-option>
-          <md-option class="campus-noborder" ng-value="'-level'">N&iacute;vel decrescente</md-option>
-          <md-option class="campus-noborder" ng-value="'user2'">Turmas pr&oacute;ximas</md-option>
+        <md-select class="campus-noborder campus-upper campus-nomargin pull-right text-left" ng-change="crouteCtrl.fireOrderBy()" placeholder="Ordenar" ng-model="crouteCtrl.orderByExpression" >
+          <md-option class="campus-noborder" ng-value="null">Ordem natural</md-option>
+          <md-option class="campus-noborder" ng-value="'levelOrdinal'">N&iacute;vel crescente</md-option>
+          <md-option class="campus-noborder" ng-value="'-levelOrdinal'">N&iacute;vel decrescente</md-option>
+          <md-option class="campus-noborder" ng-value="'nextClass'">Turmas pr&oacute;ximas</md-option>
         </md-select>
       </div>
 

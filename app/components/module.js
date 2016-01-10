@@ -11,6 +11,7 @@ define(
     'components/courses/course.details.controller',
     'components/courses/course.details.directive',
     'components/courses/courses.service',
+    'components/courses/course.route.controller',
 	],
 	function(angular){
 

@@ -11,7 +11,7 @@ define(
                 "CoursesService",
       function(  CoursesService ){
 
-
+				this.getOrderBy = CoursesService.getOrderBy;
         this.getCourses = function(){
           return CoursesService.getCourses();
         };
