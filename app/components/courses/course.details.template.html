@@ -79,7 +79,7 @@
 
           <div flex="95" class="">
                 <md-list>
-                    <md-list-item class="md-2-line" ng-repeat="cl in detailsCtrl.course.classes | orderBy : 'dateFrom' ">
+                    <md-list-item class="md-2-line" ng-repeat="cl in detailsCtrl.getFilteredClasses() | orderBy : 'dateFrom' ">
                       <md-icon aria-label="account_circle" class="md-avatar-icon material-icons">
                         place
                       </md-icon>

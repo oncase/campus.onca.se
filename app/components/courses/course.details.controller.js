@@ -25,6 +25,14 @@ define(
 					return CoursesService.getColorForLevel(this.course.level);
 				};
 
+				function dateFilter(cl){
+					return new Date(cl.dateFrom) < new Date() ? false : true;
+				}
+
+				this.getFilteredClasses = function(){
+					return $filter("filter")(this.course.classes, dateFilter);
+				}
+
 				this.showClassDetails = function(ev, cl){
 					$mdDialog.show({
 			      controller: function($scope, $mdDialog, course, cl){
