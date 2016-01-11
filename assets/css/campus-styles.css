@@ -58,12 +58,11 @@ body {
   opacity: 1;
   position:fixed;
   opacity: 1;
-  top:50px;
-  bottom:50px;
-  left:50px;
-  right:50px;
-  max-width:100vw;
-  max-height:100vh;
+  top:20px;
+  bottom:20px;
+  left:20px;
+  right:20px;
+
 }
 
 

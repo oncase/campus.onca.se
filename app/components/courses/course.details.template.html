@@ -1,4 +1,4 @@
-<md-dialog aria-label="List dialog" class="campus-course-details-wrapper">
+<md-dialog aria-label="List dialog" class="campus-course-details-wrapper" flex="100">
 
   <md-toolbar>
     <div class="md-toolbar-tools">
@@ -16,17 +16,17 @@
   <md-dialog-content layout-margin layout-padding>
 
     <!-- Image and structured info -->
-    <div layout="row" layout-align="space-around start">
+    <div layout="row" layout-wrap layout-align="space-around start">
 
 
       <!-- Image and structured info -->
-      <div flex="40" class="campus-course-img-detail-wrapper">
+      <div flex="40" flex-xs="90" flex-sm="90" class="campus-course-img-detail-wrapper">
         <img align="left" ng-src="{{detailsCtrl.course.image}}" class="campus-course-img-detail">
       </div>
 
 
       <!-- Info chips -->
-      <div flex="50" class="campus-course-img-detail-wrapper">
+      <div flex="50"  flex-xs="90" flex-sm="90"  class="campus-course-img-detail-wrapper">
         <div class="campus-course-info-label">N&iacute;vel:</div>
 
         <md-chips readonly="true" ng-model="detailsCtrl.levelChip">
