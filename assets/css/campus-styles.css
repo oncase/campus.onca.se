@@ -257,4 +257,11 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
   .campus-list-subheader {
     font-size:12px;
   }
+
+  .campus-course-details-wrapper{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  }
 }
