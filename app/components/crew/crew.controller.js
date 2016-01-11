@@ -10,7 +10,18 @@ define(
     return crewModule.controller("CrewController", [
 								"$window",
       function( $window  ){
-
+				/* ------------------------------------
+						Update guidelines:
+					 ------------------------------------
+					  - The picture needs to be 1x1 [squared]
+						- Keep the picture low-res it's displayed as 150x150px, but you can
+							still double these dimensions to match high density monitors.
+						- The social Object keys you're gonna use will have to match one of
+						  font-awesome icons. They're rendered as class="fa-{{key}}". So
+							please visit https://fortawesome.github.io/Font-Awesome/icons/ and
+							choose wisely;
+						- Keep a number of 4 bio items. Nothing more.
+				 */
 				var _crew = [
 					{
 						name: "Marcello Pontes",
