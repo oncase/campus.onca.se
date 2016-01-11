@@ -12,12 +12,18 @@ define(
     'components/courses/course.details.directive',
     'components/courses/courses.service',
     'components/courses/course.route.controller',
+
+		/* crew */
+    'components/crew/module',
+    'components/crew/crew.controller',
+    'components/crew/crew.directive',
 	],
 	function(angular){
 
     console.log("[campus.oncase] components.module required");
 		var componentsModule = angular.module("components.module", [
-			'courses.module'
+			'courses.module',
+			'crew.module'
     ]);
 
 		return componentsModule;

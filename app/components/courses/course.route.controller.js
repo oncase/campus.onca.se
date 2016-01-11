@@ -5,7 +5,7 @@ define(
 	],
 	function(angular, coursesModule){
 
-    console.log("[campus.oncase] course.controller required");
+    console.log("[campus.oncase] course.route.controller required");
 
     return coursesModule.controller("CoursesRouteController", [
 								"CoursesService", "$filter",

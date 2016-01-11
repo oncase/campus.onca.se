@@ -1,3 +1,4 @@
+<section>
 <md-subheader class="campus-list-subheader md-whiteframe-2dp" ng-init="showFilters=false;">
   <div layout="row" >
     <div flex="none" class="campus-subheader-inner-div">Cursos dispon&iacute;veis</div>
@@ -21,7 +22,7 @@
           <md-option class="campus-noborder" ng-value="null">Ordem natural</md-option>
           <md-option class="campus-noborder" ng-value="'levelOrdinal'">N&iacute;vel crescente</md-option>
           <md-option class="campus-noborder" ng-value="'-levelOrdinal'">N&iacute;vel decrescente</md-option>
-          <md-option class="campus-noborder" ng-value="'nextClass'">Turmas pr&oacute;ximas</md-option>
+          <md-option class="campus-noborder" ng-value="'nextClass'">Turmas em breve</md-option>
         </md-select>
       </div>
 
@@ -32,4 +33,17 @@
     <div class="campus-filters-pane-inner">Filtro<br>Filtro<br>Filtro<br>Filtro</div>
   </div>
 </md-subheader>
+
 <courses-list></<courses-list>
+</section>
+
+<section>
+  
+  <md-subheader class="campus-list-subheader md-whiteframe-2dp" >
+    <div layout="row" >
+      <div class="campus-subheader-inner-div">Instrutores</div>
+    </div>
+  </md-subheader>
+  <crew-list></crew-list>
+
+</section>

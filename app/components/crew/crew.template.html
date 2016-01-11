@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<div layout="column" layout-align="begin center" layout-margin>
+  <img src="assets/img/ninja.png" style="height:352px;width:477px;height:100px;width:auto;" />
+  <h1 class="md-display-3 text-center campus-gray">Instrutores experientes</h1>
+</div>
+<md-divider></md-divider>
+<div layout="column" layout-align="begin center" layout-margin>
+  <p>
+      Aprendendo conosco, você vai estar em contato com instrutores que têm muitas horas de projeto e diversas experiências para transmitir em sala de aula.
+  </p>
+</div>
+<div class="md-padding campus-general-bg" layout-wrap layout-padding layout-margin layout="row" layout-align="center center" ng-cloak>
+
+  <div flex="30" flex-xl="20" flex-lg="30" flex-md="45" flex-sm="100" flex-xs="100" ng-repeat="person in crewCtrl.getCrew() | orderBy:'ordinal'" class="campus-crew-person-wrapper text-center">
+    <img class="md-avatar campus-crew-avatar" ng-src="{{person.img}}">
+    <div class=" campus-gray">
+      <span class="md-display-1">{{person.name}}</span>
+      <br>
+      <span class="md-subhead">{{person.headline}}</span>
+    </div>
+    <div class="campus-crew-icons">
+      <md-button class="md-icon-button campus-bio-social" ng-repeat="(network, url) in person.social" ng-click="crewCtrl.openWindow(url);">
+        <md-icon aria-label="account_circle" class="md-avatar-icon fa fa-{{network}}">
+        </md-icon>
+      </md-button>
+    </div>
+
+    <div class="md-body-1" ng-repeat="bioItem in person.bio"><i class="campus-li-icon material-icons">done</i>{{bioItem}}</div>
+
+
+  </div>
+
+</div>
+
+<!-- TODO: This should go in another directive -->
+<section>
+  <md-divider></md-divider>
+  <div layout="column" class="campus-footer-wrapper" layout-align="center center">
+      <div class="md-caption campus-gray">O ONCASE CAMPUS É UM PRODUTO</div>
+      <div class="campus-logo logo-oncase campus-pointer" ng-click="crewCtrl.openWindow('http://oncase.com.br');">
+        <md-tooltip md-direction="bottom">Visite nosso site</md-tooltip>
+      </div>
+  </div>
+</section>

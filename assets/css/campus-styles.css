@@ -111,6 +111,14 @@ body {
   background-size: contain;
 }
 
+.campus-logo.logo-oncase{
+  background-image:url(../img/logo-oncase.png);
+  height:90px;
+  width:200px;
+  margin:0;
+  padding:0;
+}
+
 img.campus-course-img-detail{
   width:100%;
   border-radius:5px;
@@ -193,4 +201,44 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
 .campus-filters-pane-inner{
   border-top:solid 1px #ccc;
   padding:20px 0;
+}
+
+.campus-crew-avatar{
+  width:150px;
+  border-radius:80px;
+  border:solid 4px rgba(255, 255, 255, .4);
+}
+
+.campus-crew-person-wrapper{
+  margin-bottom:30px;
+}
+
+.campus-crew-person-wrapper span.md-subhead{
+  color:#436ba1;
+}
+
+.campus-li-icon{
+  font-size:14px;
+  line-height:14px;
+  margin-right:8px;
+  color:#436ba1;
+}
+
+.campus-crew-icons{
+  padding:10px;
+}
+
+
+.campus-bio-social{
+  background-color:#ccc;
+}
+
+.campus-crew-person-wrapper .md-avatar-icon.fa{
+  font-size:20px;
+}
+
+
+.campus-footer-wrapper{
+  padding-top:50px;
+  padding-bottom:50px;
 }
