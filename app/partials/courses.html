@@ -1,7 +1,7 @@
 <section>
 <md-subheader class="campus-list-subheader md-whiteframe-2dp" ng-init="showFilters=false;">
   <div layout="row" >
-    <div flex="none" class="campus-subheader-inner-div">Cursos dispon&iacute;veis</div>
+    <div flex="none" class="campus-subheader-inner-div">Cursos <span hide-xs>dispon&iacute;veis</span></div>
     <div flex class="campus-subheader-inner-div text-right">
 
 
@@ -9,16 +9,16 @@
         <md-icon aria-label="account_circle" class="material-icons">
           tune
         </md-icon>
-        Filtros
+        <span hide-xs>Filtros</span>
       </md-button>
 
 
       <div class="pull-right campus-space-right-2">
-        <md-icon aria-label="account_circle" class="material-icons">
+        <md-icon hide-xs aria-label="account_circle" class="material-icons">
           swap_vert
         </md-icon>
 
-        <md-select class="campus-noborder campus-upper campus-nomargin pull-right text-left" ng-change="crouteCtrl.fireOrderBy()" placeholder="Ordenar" ng-model="crouteCtrl.orderByExpression" >
+        <md-select class="campus-orderby-select campus-noborder campus-upper campus-nomargin pull-right text-left" ng-change="crouteCtrl.fireOrderBy()" placeholder="Ordenar" ng-model="crouteCtrl.orderByExpression" >
           <md-option class="campus-noborder" ng-value="null">Ordem natural</md-option>
           <md-option class="campus-noborder" ng-value="'levelOrdinal'">N&iacute;vel crescente</md-option>
           <md-option class="campus-noborder" ng-value="'-levelOrdinal'">N&iacute;vel decrescente</md-option>
@@ -38,7 +38,7 @@
 </section>
 
 <section>
-  
+
   <md-subheader class="campus-list-subheader md-whiteframe-2dp" >
     <div layout="row" >
       <div class="campus-subheader-inner-div">Instrutores</div>

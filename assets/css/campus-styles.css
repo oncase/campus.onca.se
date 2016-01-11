@@ -176,6 +176,11 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
 
 .campus-subheader-button{
   margin:2px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  min-width: 0;
+  margin-right: 0;
 }
 
 
@@ -240,4 +245,16 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
 .campus-footer-wrapper{
   padding-top:50px;
   padding-bottom:50px;
+}
+
+
+
+/* XS */
+@media (max-width: 599px) {
+  .campus-orderby-select span.md-select-icon{
+    display:none;
+  }
+  .campus-list-subheader {
+    font-size:12px;
+  }
 }
