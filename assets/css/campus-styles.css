@@ -250,7 +250,7 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
 
 
 /* XS */
-@media (max-width: 599px) {
+@media (max-width:767px) {
   .campus-orderby-select span.md-select-icon{
     display:none;
   }
