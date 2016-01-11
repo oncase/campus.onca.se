@@ -27,6 +27,8 @@ body {
 
 .campus-gray {color: #444;}
 
+.campus-white {color: white;}
+
 .campus-level-chip{
   padding: 4px 10px;
   color:#fff;
@@ -89,9 +91,7 @@ body {
 
 
 .campus-sharing-input{
-  width: 400px;
   padding: 10px;
-  clear: both;
   border-radius: 3px;
   border: solid 1px #ccc
 }

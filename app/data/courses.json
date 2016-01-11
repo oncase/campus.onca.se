@@ -22,26 +22,7 @@
             "Administração",
             "Analytics"
         ],
-        "classes": [
-            {
-                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
-                "where": "Recife, PE",
-                "dateTo": "2015-12-26",
-                "dateFrom": "2015-12-23"
-            },
-            {
-                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
-                "where": "Brasilia, DF",
-                "dateTo": "2016-01-26",
-                "dateFrom": "2016-01-23"
-            },
-            {
-                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
-                "where": "Brasilia, DF",
-                "dateTo": "2016-02-26",
-                "dateFrom": "2016-02-23"
-            }
-        ],
+        "classes": [],
         "workload": 40
     },
     {
