@@ -1,13 +1,46 @@
 [
     {
+        "id": "PECE7000",
+        "audience": [
+            "Analista de Negócios",
+            "Analista de Dados",
+            "Administrador Pentaho",
+            "Arquiteto de Software",
+            "Administrador",
+            "Usuário de Negócio"
+        ],
+        "level": "Iniciante",
+        "name": "Business Analytics com Community Edition",
+        "headline": "Esse curso é para você que quer se especializar em Business Analytics com Pentaho, a área que mais cresce no Brasil, segundo a Gartner.",
+        "description": "## Plataforma Pentaho\n\n* **Módulo 1**  Instalação da Suíte Pentaho\n* **Módulo 2** Visão geral das Soluções de Análise\n* **Módulo 3** Saiku Community\n* **Módulo 4** Modelagem Dimensional\n* **Módulo 5** Adicionando Fonte de Dados\n* **Módulo 6** ETL e visão geral do Pentaho Data * Integration\n* **Módulo 7** Pentaho Analyzer\n* **Módulo 8** Schema Workbench\n* **Módulo 9** Report Designer\n* **Módulo 10** Marketplace\n* **Módulo 11** Dashboard (Ctools)\n\n### Objetivos do Curso\n\n* Entender a arquitetura do Pentaho BI Suite;\n* Criar uma solução Pentaho BI do início ao fim;\n* Demonstrar a um usuário final as capacidades do Pentaho BI Server;\n* Usar o Pentaho Data Integration para popular um Data Warehouse;\n* Realizar transformações sobre dados;\n* Desenvolver esquemas OLAP e usá-los com Pentaho;\n* Construir e implantar relatórios;\n* Descobrir maneiras diferente de criar um Dashboard.\n\n### Público Alvo\nEsse curso é para você que quer se especializar em Business Analytics com Pentaho, a área que mais cresce no Brasil, segundo a Gartner. Este curso é válido para qualquer usuário que tiver um entendimento básico de SQL e conceitos de banco de dados relacional.\n\n### Formas de Pagamento\n\n**ATENÇÃO:** Oferecemos desconto de 10% para universitários.\n\nFormas de Pagamento\n* **À Vista** Boleto, Empenho do Governo ou Faturado para empresa.\n* **Parcelado** Em até 12 vezes via Pag-Seguro ou Pay-Pal.\n[Faça uma Simulação de Pagamento](https://pagseguro.uol.com.br/para_seu_negocio/parcelamento_com_acrescimo.jhtml#rmcl)\n\nConsulte-nos sobre outras formas de pagamento.",
+        "icon": "equalizer",
+        "image": "assets/img/PECE7000.jpg",
+        "tags": [
+            "Plataforma",
+            "Pentaho",
+            "BI Server",
+            "Administração",
+            "Analytics"
+        ],
+        "classes": [
+          {
+              "info": "* Horário **15/02 a 19/02** - 18:30 - 22:00\n* Horário **20/02 e 21/02** - 08:00 - 18:00\n\n**Valor** R$ 1890,00 (Desconto de 10% para universitários).",
+              "where": "Recife, PE",
+              "dateTo": "2016-02-15",
+              "dateFrom": "2016-02-22"
+          }
+        ],
+        "workload": 36
+    },
+    {
         "id": "BA1000",
         "audience": [
-            "Business Analyst",
-            "Data Analyst",
-            "Pentaho Administrator",
-            "Software Architect",
-            "Administrator",
-            "Business User"
+            "Analista de Negócios",
+            "Analista de Dados",
+            "Administrador Pentaho",
+            "Arquiteto de Software",
+            "Administrador",
+            "Usuário de Negócio"
         ],
         "level": "Iniciante",
         "name": "Business Analytics User Console",
@@ -28,7 +61,7 @@
     {
         "id": "BA2000",
         "audience": [
-            "Business Analyst"
+            "Analista de Negócios"
         ],
         "level": "Iniciante",
         "name": "Business Analytics Report Designer",
@@ -49,8 +82,8 @@
     {
         "id": "BA3000",
         "audience": [
-            "Business Analyst",
-            "Data Analyst"
+            "Analista de Negócios",
+            "Analista de Dados"
         ],
         "level": "Iniciante",
         "name": "Business Analytics Data Modeling",
@@ -77,7 +110,7 @@
     {
         "id": "CT1000",
         "audience": [
-            "Business Analyst"
+            "Analista de Negócios"
         ],
         "level": "Intermediário",
         "name": "CTools Fundamentals",
@@ -104,7 +137,7 @@
     {
         "id": "DI1000",
         "audience": [
-            "Data Analyst"
+            "Analista de Dados"
         ],
         "level": "Intermediário",
         "name": "Pentaho Data Integration Fundamentals",
@@ -131,7 +164,7 @@
     {
         "id": "DI2000",
         "audience": [
-            "Data Analyst"
+            "Analista de Dados"
         ],
         "level": "Avançado",
         "name": "Pentaho and Hadoop Framework Fundamentals",
