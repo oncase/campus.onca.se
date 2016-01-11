@@ -264,4 +264,8 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
     left:0;
     right:0;
   }
+
+  .campus-courseid{
+    margin-top:20px;
+  }
 }

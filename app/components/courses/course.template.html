@@ -6,7 +6,7 @@
     </md-card-avatar>
     <md-card-header-text ui-sref="courses.details({courseId : course.id })" class="campus-pointer">
       <span class="md-title">{{course.name}}</span>
-      <span class="md-subhead">{{course.id}}</span>
+      <span class="campus-courseid md-subhead">{{course.id}}</span>
     </md-card-header-text>
   </md-card-header>
   <img ui-sref="courses.details({courseId : course.id })" ng-src="{{course.image}}" class="campus-pointer md-card-image" alt="Washed Out">
