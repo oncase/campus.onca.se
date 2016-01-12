@@ -1,9 +1,9 @@
-<div class="campus-filters-pane-inner" layout="row" ng-cloak>
+<div class="campus-filters-pane-inner" layout="row" ng-cloak hide-xs hide-sm>
 
   <!-- Audience Filtrer -->
   <div flex="25" >
+    <div class="campus-filter-caption">Audi&ecirc;ncia</div>
     <md-list class="campus-filter-list">
-      <div class="campus-filter-caption">Audi&ecirc;ncia</div>
 
       <md-list-item class="campus-short-list-item" ng-repeat="audience in filtersCtrl.audience">
         <p> {{audience.label}} </p>
@@ -16,8 +16,8 @@
 
   <!-- Level Filtrer -->
   <div flex="25">
+    <div class="campus-filter-caption">N&iacute;vel</div>
     <md-list class="campus-filter-list">
-      <div class="campus-filter-caption">N&iacute;vel</div>
 
       <md-list-item class="campus-short-list-item" ng-repeat="level in filtersCtrl.levels">
         <p> {{level.label}} </p>
@@ -29,8 +29,8 @@
 
   <!-- Tags Filtrer -->
   <div flex="25">
+    <div class="campus-filter-caption">Tags</div>
     <md-list class="campus-filter-list">
-      <div class="campus-filter-caption">Tags</div>
 
       <md-list-item class="campus-short-list-item" ng-repeat="tag in filtersCtrl.tags">
         <p> {{tag.label}} </p>
