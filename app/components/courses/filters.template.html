@@ -1,9 +1,9 @@
 <div class="campus-filters-pane-inner" layout="row" ng-cloak>
 
   <!-- Audience Filtrer -->
-  <div flex="25">
+  <div flex="25" >
     <md-list class="campus-filter-list">
-      <md-subheader class="campus-filter-caption">Audi&ecirc;ncia</md-subheader>
+      <div class="campus-filter-caption">Audi&ecirc;ncia</div>
 
       <md-list-item class="campus-short-list-item" ng-repeat="audience in filtersCtrl.audience">
         <p> {{audience.label}} </p>
@@ -17,7 +17,7 @@
   <!-- Level Filtrer -->
   <div flex="25">
     <md-list class="campus-filter-list">
-      <md-subheader class="campus-filter-caption">N&iacute;vel</md-subheader>
+      <div class="campus-filter-caption">N&iacute;vel</div>
 
       <md-list-item class="campus-short-list-item" ng-repeat="level in filtersCtrl.levels">
         <p> {{level.label}} </p>
@@ -30,7 +30,7 @@
   <!-- Tags Filtrer -->
   <div flex="25">
     <md-list class="campus-filter-list">
-      <md-subheader class="campus-filter-caption">Tags</md-subheader>
+      <div class="campus-filter-caption">Tags</div>
 
       <md-list-item class="campus-short-list-item" ng-repeat="tag in filtersCtrl.tags">
         <p> {{tag.label}} </p>
@@ -43,7 +43,7 @@
   <!-- Dates -->
   <div flex="25">
     <div layout="column">
-      <md-subheader class="campus-filter-caption campus-filter-caption-date">Inicio das turmas</md-subheader>
+      <div class="campus-filter-caption campus-filter-caption-date">Inicio das turmas</div>
 
             <md-datepicker ng-change="filtersCtrl.apply()" flex ng-model="filtersCtrl.dateFrom" md-placeholder="Data de"
                md-min-date="filtersCtrl.minDate"></md-datepicker>

@@ -186,16 +186,17 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
 
 
 .campus-filters-pane{
-  max-height:120px;
+  max-height:160px;
   overflow: hidden;
-  padding-bottom:20px;
+  padding-bottom:30px;
 }
 
 .campus-filters-pane.campus-hidden{
     max-height:0px;
     padding-bottom:0;
-
 }
+
+
 
 .campus-filters-pane {
   -webkit-transition: max-height 200ms ease-in-out;
@@ -207,7 +208,8 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
 .campus-filters-pane-inner{
   border-top:solid 1px #ccc;
   padding:0;
-  height:120px;
+  height: 120px;
+  padding-top: 20px;
 }
 
 .campus-crew-avatar{
@@ -266,13 +268,26 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
   overflow-y: scroll;
   padding: 0;
   margin: 0;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
-.campus-filter-caption .md-subheader-content{
+.campus-filter-caption{
   font-size:11px;
   font-weight:bold;
   text-transform:uppercase;
-  border-bottom:solid 1px #eee;
+
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 10px;
+  line-height: 30px;
+  top: 72px;
+
+}
+
+
+.campus-filters-pane.campus-hidden  .campus-filter-caption{
+  display:none;
 }
 
 .campus-filter-caption-date span.md-subheader-content{

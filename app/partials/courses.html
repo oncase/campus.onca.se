@@ -5,11 +5,11 @@
     <div flex class="campus-subheader-inner-div text-right">
 
 
-      <md-button ng-click="showFilters=!showFilters" class="campus-space-left-2 pull-right campus-subheader-button" ng-click="eClassCtrl.close()">
+      <md-button hide-xs hide-sm ng-click="showFilters=!showFilters" class="campus-space-left-2 pull-right campus-subheader-button" ng-click="eClassCtrl.close()">
         <md-icon aria-label="account_circle" class="material-icons">
           tune
         </md-icon>
-        <span hide-xs>Filtros</span>
+        <span >Filtros</span>
       </md-button>
 
 
@@ -29,7 +29,7 @@
 
     </div>
   </div>
-  <div class="campus-filters-pane" ng-class="{'campus-hidden' : !showFilters}">
+  <div class="campus-filters-pane" ng-class="{'campus-hidden' : !showFilters}" layout=column>
     <filters-pane></filters-pane>
   </div>
 </md-subheader>
