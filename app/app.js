@@ -8,16 +8,11 @@ define(
 		console.log("[campus.oncase] app required");
 
 		var app = angular.module("campusApp", [
+			'ngLocale',
 			'ngMaterial',
 			'ui.router',
 			'components.module'
 		])
-		.run(function($rootScope){
-				$rootScope.$on('$stateChangeStart',
-				function(event, toState, toParams, fromState, fromParams){
-				    console.log("Mudou!");
-				})
-		})
 		.config(function($mdThemingProvider){
 
 			/**
@@ -94,7 +89,37 @@ define(
         templateUrl: "app/partials/courses.details.html"
       });
 
+		})
+		.config(function($mdDateLocaleProvider, $localeProvider, $filterProvider){
+			var dtFormat = $localeProvider.$get().DATETIME_FORMATS;
 
+		  $mdDateLocaleProvider.months = dtFormat.MONTH;
+		  $mdDateLocaleProvider.shortMonths = dtFormat.SHORTMONTH;
+		  $mdDateLocaleProvider.days = dtFormat.DAY;
+		  $mdDateLocaleProvider.shortDays = dtFormat.SHORTDAY;
+
+		  // Can change week display to start on Monday.
+		  $mdDateLocaleProvider.firstDayOfWeek = dtFormat.FIRSTDAYOFWEEK;
+		  // Optional.
+
+
+		  $mdDateLocaleProvider.msgCalendar = 'Calendário';
+		  $mdDateLocaleProvider.msgOpenCalendar = 'Abrir calendário';
+		  $mdDateLocaleProvider.formatDate = function(date) {
+
+
+			if( date === null)
+				return null;
+
+
+			if(typeof date["getMonth"] !== 'function')
+				return null;
+
+
+		    return ("0"+date.getDate()).slice(-2) + "/" +
+							 ("0"+(date.getMonth()+1)).slice(-2) + "/" +
+						 	 date.getFullYear()
+		  };
 
 		});
 

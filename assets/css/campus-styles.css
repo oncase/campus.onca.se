@@ -188,10 +188,12 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
 .campus-filters-pane{
   max-height:120px;
   overflow: hidden;
+  padding-bottom:20px;
 }
 
 .campus-filters-pane.campus-hidden{
     max-height:0px;
+    padding-bottom:0;
 
 }
 
@@ -204,7 +206,8 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
 
 .campus-filters-pane-inner{
   border-top:solid 1px #ccc;
-  padding:20px 0;
+  padding:0;
+  height:120px;
 }
 
 .campus-crew-avatar{
@@ -247,7 +250,35 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
   padding-bottom:50px;
 }
 
+.campus-short-list-item{
+  min-height: 0;
+  height:24px;
+  font-size:11px;
+}
 
+.campus-short-list-item > div.md-ink-ripple{
+  min-height:0;
+  height:24px;
+}
+
+.campus-filter-list{
+  height: 120px;
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+}
+
+.campus-filter-caption .md-subheader-content{
+  font-size:11px;
+  font-weight:bold;
+  text-transform:uppercase;
+  border-bottom:solid 1px #eee;
+}
+
+.campus-filter-caption-date span.md-subheader-content{
+  height:17px;
+  line-height:17px;
+}
 
 /* XS */
 @media (max-width:767px) {

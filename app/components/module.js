@@ -12,6 +12,8 @@ define(
     'components/courses/course.details.directive',
     'components/courses/courses.service',
     'components/courses/course.route.controller',
+    'components/courses/filters.controller',
+    'components/courses/filters.directive',
 
 		/* crew */
     'components/crew/module',

@@ -2,6 +2,7 @@ require.config({
   baseUrl: "app/",
   paths: {
     angular    : '../node_modules/angular/angular.min',
+    ngLocale   : '../node_modules/angular-i18n/angular-locale_pt-br',
     ngAnimate  : '../node_modules/angular-animate/angular-animate.min',
     ngAria     : '../node_modules/angular-aria/angular-aria.min',
     ngMaterial : '../node_modules/angular-material/angular-material.min',
@@ -15,6 +16,9 @@ require.config({
   shim: {
     angular : {
       'exports' : 'angular'
+    },
+    ngLocale : {
+      deps : ["angular"]
     },
     ngAnimate : {
       exports: "ngAnimate",
@@ -49,6 +53,7 @@ require([
           'ngAria',
           'ngMaterial',
           'ngRouter',
+          'ngLocale',
           'app'
         ],
         function(angular, ngAnimate, ngAria, ngMaterial) {

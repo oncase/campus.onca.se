@@ -12,9 +12,7 @@ define(
       function(  CoursesService ){
 
 				this.getOrderBy = CoursesService.getOrderBy;
-        this.getCourses = function(){
-          return CoursesService.getCourses();
-        };
+        this.getCourses =  CoursesService.getCourses;
 
 
 

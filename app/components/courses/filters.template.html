@@ -1,0 +1,58 @@
+<div class="campus-filters-pane-inner" layout="row" ng-cloak>
+
+  <!-- Audience Filtrer -->
+  <div flex="25">
+    <md-list class="campus-filter-list">
+      <md-subheader class="campus-filter-caption">Audi&ecirc;ncia</md-subheader>
+
+      <md-list-item class="campus-short-list-item" ng-repeat="audience in filtersCtrl.audience">
+        <p> {{audience.label}} </p>
+        <md-checkbox class="md-secondary" ng-change="filtersCtrl.apply()" ng-model="audience.enabled"></md-checkbox>
+      </md-list-item>
+
+    </md-list>
+  </div>
+
+
+  <!-- Level Filtrer -->
+  <div flex="25">
+    <md-list class="campus-filter-list">
+      <md-subheader class="campus-filter-caption">N&iacute;vel</md-subheader>
+
+      <md-list-item class="campus-short-list-item" ng-repeat="level in filtersCtrl.levels">
+        <p> {{level.label}} </p>
+        <md-checkbox class="md-secondary" ng-change="filtersCtrl.apply()" ng-model="level.enabled"></md-checkbox>
+      </md-list-item>
+
+    </md-list>
+  </div>
+
+  <!-- Tags Filtrer -->
+  <div flex="25">
+    <md-list class="campus-filter-list">
+      <md-subheader class="campus-filter-caption">Tags</md-subheader>
+
+      <md-list-item class="campus-short-list-item" ng-repeat="tag in filtersCtrl.tags">
+        <p> {{tag.label}} </p>
+        <md-checkbox class="md-secondary" ng-change="filtersCtrl.apply()" ng-model="tag.enabled"></md-checkbox>
+      </md-list-item>
+
+    </md-list>
+  </div>
+
+  <!-- Dates -->
+  <div flex="25">
+    <div layout="column">
+      <md-subheader class="campus-filter-caption campus-filter-caption-date">Inicio das turmas</md-subheader>
+
+            <md-datepicker ng-change="filtersCtrl.apply()" flex ng-model="filtersCtrl.dateFrom" md-placeholder="Data de"
+               md-min-date="filtersCtrl.minDate"></md-datepicker>
+
+
+            <md-datepicker ng-change="filtersCtrl.apply()" flex ng-model="filtersCtrl.dateTo" md-placeholder="Data at&eacute;"
+               md-min-date="filtersCtrl.minDate" ></md-datepicker>
+
+    </div>
+  </div>
+
+</div>
