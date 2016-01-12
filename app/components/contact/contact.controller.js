@@ -54,12 +54,25 @@ define(
 					// Sends
 					ContactService.sendContact(sendObj)
 					.then(function(res){
-						console.log(res);
-						$mdToast.show(
-				      $mdToast.simple()
-				        .textContent('Enviado com sucesso!')
-				        .hideDelay(3000)
-				    ).then(function(){self.resetForm()});
+
+						// Success
+						if(res.status===200 && res.data=="1"){
+							$mdToast.show(
+					      $mdToast.simple()
+					        .textContent('Enviado com sucesso!')
+					        .hideDelay(3000)
+					    ).then(function(){self.resetForm()});
+
+						//Some error
+						}else{
+							$mdToast.show(
+					      $mdToast.simple()
+					        .textContent('Erro ao enviar.')
+					        .hideDelay(3000)
+					    );
+
+						}
+
 					});
 
 				}

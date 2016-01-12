@@ -8,8 +8,8 @@ define(
     console.log("[campus.oncase] course.details.controller required");
 
     return coursesModule.controller("CourseDetailsController", [
-								"CoursesService", "$filter", "$stateParams", "$mdDialog",
-			function(  CoursesService ,  $filter ,  $stateParams,   $mdDialog){
+							"CoursesService","$filter","$stateParams","$mdDialog","$location",
+			function(CoursesService , $filter , $stateParams,  $mdDialog,  $location){
 
 				var self = this;
 
@@ -17,6 +17,12 @@ define(
         this.course = CoursesService.getCourse(
           $stateParams.courseId
         );
+
+				if (this.course === null){
+					$location.path('/');
+					return;
+				}
+
 
 				self.levelChip = [this.course.level];
 				self.workloadChip = [this.course.workload];
