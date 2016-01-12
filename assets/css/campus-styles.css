@@ -278,7 +278,9 @@ md-select.campus-noborder:not([disabled]):focus .md-select-value{
 
   margin-top: -20px;
   margin-left: 10px;
-  line-height: 30px;
+  line-height: 24px;
+  border-bottom: solid 1px #eee;
+  margin-bottom: 6px;
 
 }
 
