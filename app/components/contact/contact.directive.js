@@ -19,10 +19,10 @@ define(
 				link : function(scope, element, attrs, controller, transcludeFn){
 
 					controller.whichPage = typeof attrs["whichPage"] === "string" ?
-							attrs["whichPage"] : null;
+							attrs["whichPage"] : "N/D";
 
 					controller.whichCourse = typeof attrs["whichCourse"] === "string" ?
-							attrs["whichCourse"] : null;
+							attrs["whichCourse"] : "N/D";
 
 				}
       };

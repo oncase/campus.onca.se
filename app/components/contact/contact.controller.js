@@ -36,10 +36,7 @@ define(
 					// Object to be sent
 					var sendObj = this.contactInfo;
 					sendObj["page"] = this.whichPage;
-
-					// Adds the page it's sent from
-					if(this.whichCourse !== null)
-						sendObj["course"] = this.whichCourse;
+					sendObj["course"] = this.whichCourse;
 
 
 					// Alerts for bad email address
@@ -52,7 +49,8 @@ define(
 						return;
 					}
 
-
+					console.log("Validado");
+					console.log(sendObj);
 					// Sends
 					ContactService.sendContact(sendObj)
 					.then(function(res){
