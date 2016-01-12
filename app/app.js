@@ -70,6 +70,10 @@ define(
         .primaryPalette(primaries[getRandomInt(0,primaries.length-1)])
         .accentPalette(accents[getRandomInt(0,accents.length-1)]);
 
+			// Configure a dark theme with primary foreground yellow
+			$mdThemingProvider.theme('docs-dark', 'default')
+				.primaryPalette('yellow')
+				.dark();
 
 		})
 		.config(function($stateProvider, $urlRouterProvider, $locationProvider){

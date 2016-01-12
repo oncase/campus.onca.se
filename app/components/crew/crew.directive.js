@@ -12,10 +12,7 @@ define(
         restrict : "E",
         templateUrl : "app/components/crew/crew.template.html",
         controller : "CrewController" ,
-        controllerAs : "crewCtrl",
-				init : function(){
-					console.log("INIT");
-				}
+        controllerAs : "crewCtrl"
       };
     }]);
 

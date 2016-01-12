@@ -7,7 +7,8 @@ define(
 
     console.log("[campus.oncase] courses.module required");
 		var app = angular.module("courses.module", [
-			'btford.markdown'
+			'btford.markdown',
+			'contact.module'
     ]);
 
 		return app;

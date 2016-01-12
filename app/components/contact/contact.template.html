@@ -1,0 +1,35 @@
+
+<md-divider></md-divider>
+<div layout="column" layout-align="begin center" layout-margin>
+  <img src="assets/img/mail-icon.png" style="height:352px;width:477px;height:100px;width:auto;" />
+  <h1 class="md-display-3 text-center campus-gray">Contato</h1>
+</div>
+
+
+
+<md-content layout-gt-sm="row" layout-align="center center" layout-padding  layout-wrap >
+  <div flex="100" layout-align="center center" layout-margin>
+    <p class="text-center">
+      Escreva pra gente{{contactCtrl.getAdditionalMsg()}}. Dentro do horário comercial respondemos em até 2h.
+    </p>
+  </div>
+  <md-input-container flex="40">
+    <label>Nome</label>
+    <input ng-model="contactCtrl.contactInfo.name">
+  </md-input-container>
+  <md-input-container flex="40">
+    <label>Email</label>
+    <input ng-model="contactCtrl.contactInfo.email" type="email">
+  </md-input-container>
+
+  <md-input-container class="md-block" flex="80">
+    <label>Mensagem</label>
+    <textarea ng-model="contactCtrl.contactInfo.msg" columns="1" md-maxlength="500" rows="5"></textarea>
+  </md-input-container>
+  <div flex="80" layout-align="center center" class="text-center">
+      <md-button class="md-raised md-warn" ng-click="contactCtrl.sendContact()">
+        Enviar&nbsp;
+        <md-icon md-class="material-icons" style="font-size:16px;">send</md-icon>
+      </md-button>
+  </div>
+</md-content>
