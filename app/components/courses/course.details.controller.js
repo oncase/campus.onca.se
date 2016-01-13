@@ -9,10 +9,12 @@ define(
 
     return coursesModule.controller("CourseDetailsController", [
 							"CoursesService","$filter","$stateParams","$mdDialog","$location",
-			function(CoursesService , $filter , $stateParams,  $mdDialog,  $location){
+							"$window","$timeout","$scope",
+
+			function(CoursesService , $filter , $stateParams,  $mdDialog,  $location,
+				       $window, $timeout,   $scope){
 
 				var self = this;
-
 
         this.course = CoursesService.getCourse(
           $stateParams.courseId
@@ -22,6 +24,19 @@ define(
 					$location.path('/');
 					return;
 				}
+
+				function exit(e) {
+					if (e.keyCode == 27)
+						$timeout(function(){
+							$location.path('/');
+						},0);
+				}
+
+				$scope.$on('$destroy', function () {
+				  angular.element($window).off('keydown', exit);
+				});
+
+				angular.element($window).on('keydown', exit);
 
 
 				self.levelChip = [this.course.level];
