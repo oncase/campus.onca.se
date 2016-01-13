@@ -58,7 +58,7 @@ define(
 					{
 						name: "Iandé Coutinho",
 						img: "assets/img/crew/iande.jpg",
-						headline : "CIO & Analytics Evangelist",
+						headline : "Founder & Analytics Evangelist",
 						bio:[
 							"Graduado em Ciências da Computação pela UNICAP",
 							"10+ anos de Analytics com diversas pós graduações",
