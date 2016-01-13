@@ -24,10 +24,10 @@
         ],
         "classes": [
           {
-              "info": "* Horário **15/02 a 19/02** - 18:30 - 22:00\n* Horário **20/02 e 21/02** - 08:00 - 18:00\n\n**Valor** R$ 1890,00 (Desconto de 10% para universitários).",
+              "info": "* Horário **15/02 a 19/02** - 18:30 - 22:00\n* Horário **20/02 e 21/02** - 08:00 - 18:00\n\n**Local:** Rua do Bom Jesus, 163 - 2º andar, Recife Antigo, Recife-PE.",
               "where": "Recife, PE",
-              "dateTo": "2016-02-15",
-              "dateFrom": "2016-02-22"
+              "dateTo": "2016-02-22",
+              "dateFrom": "2016-02-16"
           }
         ],
         "workload": 36
@@ -97,14 +97,7 @@
             "Report Designer",
             "Relatórios"
         ],
-        "classes": [
-            {
-                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
-                "where": "Brasilia, DF",
-                "dateTo": "2016-01-26",
-                "dateFrom": "2016-01-23"
-            }
-        ],
+        "classes": [],
         "workload": 16
     },
     {
@@ -124,14 +117,7 @@
             "Report Designer",
             "Relatórios"
         ],
-        "classes": [
-            {
-                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
-                "where": "Brasilia, DF",
-                "dateTo": "2016-01-26",
-                "dateFrom": "2016-01-23"
-            }
-        ],
+        "classes": [],
         "workload": 16
     },
     {
@@ -151,14 +137,7 @@
             "Report Designer",
             "Relatórios"
         ],
-        "classes": [
-            {
-                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
-                "where": "Brasilia, DF",
-                "dateTo": "2016-01-26",
-                "dateFrom": "2016-01-23"
-            }
-        ],
+        "classes": [],
         "workload": 24
     },
     {
@@ -178,14 +157,7 @@
             "Report Designer",
             "Relatórios"
         ],
-        "classes": [
-            {
-                "info": "Valor da Inscricao : R$ 800,00\nLigar para +55-81-3077-8558 ou escrever para contato@oncase.com.br.\n\nRespondemos em ate 2h dentro do horario comercial.",
-                "where": "Brasilia, DF",
-                "dateTo": "2016-01-26",
-                "dateFrom": "2016-01-23"
-            }
-        ],
+        "classes": [],
         "workload": 24
     }
 ]
