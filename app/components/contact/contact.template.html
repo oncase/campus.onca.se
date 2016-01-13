@@ -7,7 +7,7 @@
 
 
 
-<md-content layout-gt-sm="row" layout-align="center center" layout-padding  layout-wrap >
+<md-content md-theme="{{ dark ? 'docs-dark' : 'default' }}" layout-gt-sm="row" layout-align="center center" layout-padding  layout-wrap >
   <div flex="100" layout-align="center center" layout-margin>
     <p class="text-center">
       Escreva pra gente{{contactCtrl.getAdditionalMsg()}}. Dentro do horário comercial respondemos em até 2h.
@@ -26,10 +26,15 @@
     <label>Mensagem</label>
     <textarea ng-model="contactCtrl.contactInfo.msg" columns="1" md-maxlength="500" rows="5"></textarea>
   </md-input-container>
-  <div flex="80" layout-align="center center" class="text-center" >
-      <md-button class="md-raised md-warn" ng-click="contactCtrl.sendContact()">
-        Enviar&nbsp;
+  <div flex="80" layout-align="center center" class="text-center" layout="row">
+      <md-button ng-disabled="contactCtrl.sendInProgress" class="md-raised md-warn" ng-click="contactCtrl.sendContact()">
+        {{ contactCtrl.sendInProgress ? "Enviando... " : "Enviar " }}
         <md-icon md-class="material-icons" style="font-size:16px;">send</md-icon>
       </md-button>
+      <div>
+        <md-progress-circular ng-if="contactCtrl.sendInProgress" class="md-accent" md-mode="indeterminate" md-diameter="40">
+        </md-progress-circular>
+      </div>
+
   </div>
 </md-content>

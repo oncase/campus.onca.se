@@ -18,12 +18,13 @@ define(
 				},
 				self = this;
 
+				this.sendInProgress=false;
 				this.whichPage = null;
 				this.whichCourse = null;
 				this.contactInfo = angular.copy(emptyConcact);
 
 				this.getAdditionalMsg = function(){
-					return this.whichCourse === null ? ""
+					return this.whichCourse === "N/D" ? ""
 					 : " sobre o curso "+this.whichCourse
 				}
 
@@ -31,8 +32,17 @@ define(
 					this.contactInfo = angular.copy(emptyConcact);;
 				}
 
+				this.showProgress=function(){
+					self.sendInProgress=true;
+				}
+
+				this.hideProgress=function(){
+					self.sendInProgress=false;
+				}
+
 				this.sendContact = function(){
 
+					self.showProgress();
 					// Object to be sent
 					var sendObj = this.contactInfo;
 					sendObj["page"] = this.whichPage;
@@ -40,17 +50,28 @@ define(
 
 
 					// Alerts for bad email address
-					if(this.contactInfo.email === undefined){
+					if(this.contactInfo.email == "" && this.contactInfo.name==""
+							&& this.contactInfo.msg == "" ){
+						$mdToast.show(
+							$mdToast.simple()
+								.textContent('Por favor, Preencha os campos.')
+								.hideDelay(3000)
+						);
+						self.hideProgress();
+						return;
+					}
+
+					// Alerts for bad email address
+					if(this.contactInfo.email == "" || this.contactInfo.email===undefined){
 						$mdToast.show(
 							$mdToast.simple()
 								.textContent('Por favor, informe um e-mail válido.')
 								.hideDelay(3000)
 						);
+						self.hideProgress();
 						return;
 					}
 
-					console.log("Validado");
-					console.log(sendObj);
 					// Sends
 					ContactService.sendContact(sendObj)
 					.then(function(res){
@@ -72,6 +93,8 @@ define(
 					    );
 
 						}
+
+						self.hideProgress();
 
 					});
 

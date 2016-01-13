@@ -14,7 +14,7 @@ define(
         controller : "ContactController" ,
         controllerAs : "contactCtrl",
 				scope : {
-					theme : '=theme'
+					dark : "="
 				},
 				link : function(scope, element, attrs, controller, transcludeFn){
 

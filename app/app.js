@@ -15,21 +15,6 @@ define(
 		])
 		.config(function($mdThemingProvider){
 
-			/**
-			 * Returns a random number between min and max
-			 */
-			function getRandomArbitary (min, max) {
-			    return Math.random() * (max - min) + min;
-			}
-
-			/**
-			 * Returns a random integer between min and max
-			 * Using Math.round() will give you a non-uniform distribution!
-			 */
-			function getRandomInt (min, max) {
-			    return Math.floor(Math.random() * (max - min + 1)) + min;
-			}
-
       $mdThemingProvider.definePalette('oncasePalette', {
         '50': 'e5e9ef',
         '100': 'bfc8d8',
@@ -67,8 +52,8 @@ define(
       $mdThemingProvider
 
         .theme('default')
-        .primaryPalette(primaries[getRandomInt(0,primaries.length-1)])
-        .accentPalette(accents[getRandomInt(0,accents.length-1)]);
+        .primaryPalette("oncasePalette")
+        .accentPalette("red");
 
 			// Configure a dark theme with primary foreground yellow
 			$mdThemingProvider.theme('docs-dark', 'default')
