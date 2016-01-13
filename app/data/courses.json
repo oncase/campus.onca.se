@@ -10,9 +10,9 @@
             "Usuário de Negócio"
         ],
         "level": "Iniciante",
-        "name": "Business Analytics com Community Edition",
+        "name": "Business Analytics com Pentaho CE",
         "headline": "Esse curso é para você que quer se especializar em Business Analytics com Pentaho, a área que mais cresce no Brasil, segundo a Gartner.",
-        "description": "## Plataforma Pentaho\n\n* **Módulo 1**  Instalação da Suíte Pentaho\n* **Módulo 2** Visão geral das Soluções de Análise\n* **Módulo 3** Saiku Community\n* **Módulo 4** Modelagem Dimensional\n* **Módulo 5** Adicionando Fonte de Dados\n* **Módulo 6** ETL e visão geral do Pentaho Data * Integration\n* **Módulo 7** Pentaho Analyzer\n* **Módulo 8** Schema Workbench\n* **Módulo 9** Report Designer\n* **Módulo 10** Marketplace\n* **Módulo 11** Dashboard (Ctools)\n\n### Objetivos do Curso\n\n* Entender a arquitetura do Pentaho BI Suite;\n* Criar uma solução Pentaho BI do início ao fim;\n* Demonstrar a um usuário final as capacidades do Pentaho BI Server;\n* Usar o Pentaho Data Integration para popular um Data Warehouse;\n* Realizar transformações sobre dados;\n* Desenvolver esquemas OLAP e usá-los com Pentaho;\n* Construir e implantar relatórios;\n* Descobrir maneiras diferente de criar um Dashboard.\n\n### Público Alvo\nEsse curso é para você que quer se especializar em Business Analytics com Pentaho, a área que mais cresce no Brasil, segundo a Gartner. Este curso é válido para qualquer usuário que tiver um entendimento básico de SQL e conceitos de banco de dados relacional.\n\n### Formas de Pagamento\n\n**ATENÇÃO:** Oferecemos desconto de 10% para universitários.\n\nFormas de Pagamento\n* **À Vista** Boleto, Empenho do Governo ou Faturado para empresa.\n* **Parcelado** Em até 12 vezes via Pag-Seguro ou Pay-Pal.\n[Faça uma Simulação de Pagamento](https://pagseguro.uol.com.br/para_seu_negocio/parcelamento_com_acrescimo.jhtml#rmcl)\n\nConsulte-nos sobre outras formas de pagamento.",
+        "description": "## Plataforma Pentaho\n\n* **Módulo 1** Instalação da Suíte Pentaho\n* **Módulo 2** Visão geral das Soluções de Análise\n* **Módulo 3** Saiku Community\n* **Módulo 4** Modelagem Dimensional\n* **Módulo 5** Adicionando Fonte de Dados\n* **Módulo 6** ETL e visão geral do Pentaho Data Integration\n* **Módulo 7** Pentaho Analyzer\n* **Módulo 8** Schema Workbench\n* **Módulo 9** Report Designer\n* **Módulo 10** Marketplace\n* **Módulo 11** Dashboard (Ctools)\n\n### Objetivos do Curso\n\n* Entender a arquitetura do Pentaho BI Suite;\n* Criar uma solução Pentaho BI do início ao fim;\n* Demonstrar a um usuário final as capacidades do Pentaho BI Server;\n* Usar o Pentaho Data Integration para popular um Data Warehouse;\n* Realizar transformações sobre dados;\n* Desenvolver esquemas OLAP e usá-los com Pentaho;\n* Construir e implantar relatórios;\n* Descobrir maneiras diferente de criar um Dashboard.\n\n### Público Alvo\nEsse curso é para você que quer se especializar em Business Analytics com Pentaho, a área que mais cresce no Brasil, segundo a Gartner. Este curso é válido para qualquer usuário que tiver um entendimento básico de SQL e conceitos de banco de dados relacional.\n\n### Formas de Pagamento\n\nCartão, Boleto, Empenho ou Faturado para empresa.\n\n**ATENÇÃO:** Oferecemos desconto de 10% para universitários.",
         "icon": "equalizer",
         "image": "assets/img/PECE7000.jpg",
         "tags": [
@@ -28,6 +28,24 @@
               "where": "Recife, PE",
               "dateTo": "2016-02-22",
               "dateFrom": "2016-02-16"
+          },
+          {
+              "info": "* Horário **05/03** - 08:00 - 18:00\n* Horário **12/03** - 08:00 - 18:00\n* Horário **19/03** - 08:00 - 18:00\n* Horário **26/03** - 08:00 - 18:00\n\n**Local:** On-line\n\n**Materia Didático:** Digital",
+              "where": "On-line",
+              "dateTo": "2016-03-27",
+              "dateFrom": "2016-03-06"
+          },
+          {
+              "info": "* Horário **07/05** - 08:00 - 18:00\n* Horário **14/05** - 08:00 - 18:00\n* Horário **21/05** - 08:00 - 18:00\n* Horário **28/05** - 08:00 - 18:00\n\n**Local:** On-line\n\n**Materia Didático:** Digital",
+              "where": "On-line",
+              "dateTo": "2016-05-29",
+              "dateFrom": "2016-05-08"
+          },
+          {
+              "info": "* Horário **09/07** - 08:00 - 18:00\n* Horário **16/07** - 08:00 - 18:00\n* Horário **23/07** - 08:00 - 18:00\n* Horário **30/07** - 08:00 - 18:00\n\n**Local:** On-line\n\n**Materia Didático:** Digital",
+              "where": "On-line",
+              "dateTo": "2016-07-31",
+              "dateFrom": "2016-07-10"
           }
         ],
         "workload": 36
@@ -35,17 +53,15 @@
     {
         "id": "BA1000",
         "audience": [
-            "Analista de Negócios",
-            "Analista de Dados",
-            "Administrador Pentaho",
-            "Arquiteto de Software",
-            "Administrador",
-            "Usuário de Negócio"
+          "Usuário de Negócio",
+          "Analista de Negócios",
+          "Analista de Dados",
+          "Administrador Pentaho"
         ],
         "level": "Iniciante",
         "name": "Business Analytics User Console",
-        "headline": "This course introduces the Pentaho Business Analytics suite of products to non-technical users.",
-        "description": "This course introduces the Pentaho Business Analytics suite of products to non-technical users who rely on business intelligence solutions to make informed business decisions.\n\nThis course also represents the starting point for those following the Business Analytics and Data Integration learning paths and is therefore a prerequisite for more advanced topics.\n\nPentaho Business Analytics is a powerful suite of business intelligence applications that enables users to intuitively access, explore and analyze all data without depending on IT. Pentaho provides:\n\n* Point and click access to any data\n* Quick data discovery and analysis\n* Rich and interactive dashboards\n* Mobile analytical reporting",
+        "headline": "Esse curso apresenta a suíte Pentaho Business Analytics de produtos para usuários de negócio e gestores.",
+        "description": "###Módulos do Curso\n\n* **Módulo 1** Iniciando com o pentaho business analytics;\n* **Módulo 2** Criando relatórios com interactive reports;\n* **Módulo 3** Criando relatórios de análise com o analyser;\n* **Módulo 4** Criando dashboard com o pentaho;\n* **Módulo 5** Criando fontes de dados com o assistente de acesso de dados;\n* **Módulo 6** Agendando relatórios.\n\n###Objetivos\n\n* Tomar decisões de qualidade, guiadas por informações que impactam positivamente o desempenho da sua empresa usando relatórios e painéis precisos e imediatos;\n* Explorar relatórios e painéis desenvolvidos pelos criadores de conteúdo;\n* Criar seus próprios relatórios e painéis que refletem o estado do seu negócio;\n* Melhorar a produtividade do time provendo Inteligência de Negócios e as habilidades que eles precisam para ter sucesso com o Pentaho Business Analytics; \n* Acesso fácil para todos os dados;\n* Descoberta rápida de dados e análise;\n* Painéis ricos e interativos;\n* Relatórios analíticos móveis.\n\n### Público Alvo\n Esse curso apresenta a suíte Pentaho Business Analytics de produtos para usuários de negócio e gestores.\n\nO Pentaho Businesss Analytics é uma suíte poderosa de aplicativos de inteligência de negócios que permite o usuário intuitivamente acessar, explorar e analisar todos os dados sem depender de TI.\n\n### Formas de Pagamento\n\nCartão, Boleto, Empenho ou Faturado para empresa.",
         "icon": "dashboard",
         "image": "assets/img/ba1000.jpg",
         "tags": [
@@ -56,17 +72,17 @@
             "Analytics"
         ],
         "classes": [],
-        "workload": 40
+        "workload": 8
     },
     {
         "id": "BA2000",
         "audience": [
-            "Analista de Negócios"
+          "Analista de Negócios"
         ],
         "level": "Iniciante",
         "name": "Business Analytics Report Designer",
-        "headline": "Business Analytics Report Designer teaches you how to design custom reports with Report Designer.",
-        "description": "Business Analytics Report Designer teaches you how to design, create and publish custom reports with Report Designer. From connecting to data sources to adding design elements, you will learn all of the necessary steps to produce visually appealing reports for your organization. This course helps prepare you for the Pentaho Solution Consultant Exam.\n\nNote: The Business Analytics courses do not cover Data Integration or Administration.\n\nFor more information on Data Integration, see course DI1000 Pentaho Data Integration Fundamentals. For more information on Administration, see course AD1000 Installation and Administration.",
+        "headline": "Com esse curso você será capaz de criar e personalizar relatórios com o Pentaho Report Designer.",
+        "description": "### Ementa\n\n* **Módulo 1** Iniciando com o pentaho business analytics;\n* **Módulo 2** Criando relatórios com o report designer, parte 1;\n* **Módulo 3** Criar relatórios com o report designer, parte 2;\n* **Módulo 4** Tópicos avançados de relatórios;\n* **Módulo 5** Usando o assistente de relatório;\n* **Módulo 6** Visualizando amostras de relatórios.\n\n###Objetivos do Curso\n\n* Diminuir o tempo na elaboração de relatórios usando o Report Designer;\n* Equipar-se com as melhores práticas e técnicas de relatório para minimizar a manutenção e aumentar a velocidade da criação de conteúdo;\n* Conectar a fontes de dados e usar ferramentas de design de consulta para escrever consultas para relatórios;\n* Criar relatório usando vários dados e elementos de design;\n* Formatar os elementos do relatório e aplicar formatação condicional;\n* Adicionar hyperlinks e parâmetros aos relatórios;\n* Usar gráficos e sub relatórios no Report Designer;\n* Usar recursos de arquivos dentro de relatórios;\n* Criar relatórios usando o Assistente de Relatórios;\n\n### Público Alvo\n\nEsse curso é para profissionais que já possuem conhecimento inicial da Plataforma Pentaho.\n\n### Formas de Pagamento\n\nCartão, Boleto, Empenho ou Faturado para empresa.",
         "icon": "receipt",
         "image": "assets/img/ba2000.jpg",
         "tags": [
@@ -87,8 +103,8 @@
         ],
         "level": "Iniciante",
         "name": "Business Analytics Data Modeling",
-        "headline": "Business Analytics Data Modeling provides an overview of using Metadata Editor and Schema Workbench to create data models used by Interactive Reporting, Analyzer, and Report Designer.",
-        "description": "Business Analytics Data Modeling provides an overview of using Metadata Editor and Schema Workbench to create data models used by Interactive Reporting, Analyzer, and Report Designer.\n\nThrough a mixture of interactive, instructor-led activities and hands-on exercises, students learn to create metadata models with Metadata Editor, and Mondrian schema (cubes and stars) with Schema Workbench.\n\nNote: The Business Analytics courses do not cover Data Integration or Administration. For more information on Data Integration, see course DI1000 Pentaho Data Integration Fundamentals. For more information on Administration, see course AD1000 Installation and Administration.",
+        "headline": "Esse curso dá uma visão geral do Editor de Metadados do Pentaho, Cubos e o Schema Workbench para criar modelos de dados usados no Report Designer e Analyzer.",
+        "description": "### Ementa\n\n* **MÓDULO 1** Introdução ao Pentaho Business Analytics\n* **MÓDULO 2** Trabalhando com Fontes de Dados\n* **MÓDULO 3** OLAP/ROLAP e Modelagem Dimensional\n* **MÓDULO 4** Utilizando o Schema Workbench (PSW)\n\n### Objetivos do Curso\n\n* Diminuir o tempo na criação de modelos para uso no Pentaho Business analytics;\n* Equipar-se com as melhores práticas e técnicas de construção de modelos de dados;\n* Usar o Pentaho Metadata Editor para construir modelos de metadados e domínios que te permitem criar definições em linguagem de negócios para tabelas complexas de bancos de dados, definir os parâmetros de segurança para reportar dados, e controlar a formatação de dados;\n* Descrever o Processo Analítico Online (OLAP), Processo Relacional Analítico Online (ROLAP), e Modelação Dimensional;\n* Usar o Schema Workbench para criar um cubo básico para o Pentaho Analyzer;\n* Usar o Schema Workbench para criar um esquema estrela com hierarquias, níveis, e membros calculados;\n* Descrever como tabelas agregadas podem melhorar o desempenho do schema;\n* Usar o Assistente de Fontes de Dados para construir modelos de dados, e então editar os modelos com o Editor de Metadados e o Schema Workbench;\n\n### Público Alvo\n\nEsse curso é para profissionais que já possuem conhecimento inicial da Plataforma Pentaho.\n\n### Formas de Pagamento\n\nCartão, Boleto, Empenho ou Faturado para empresa.",
         "icon": "device_hub",
         "image": "assets/img/ba3000.jpg",
         "tags": [
@@ -107,8 +123,8 @@
         ],
         "level": "Intermediário",
         "name": "CTools Fundamentals",
-        "headline": "CTools Fundamentals teaches you how to develop pixel-perfect dashboards that conform to your organization’s brand identity and provide a refined end-user experience.",
-        "description": "CTools Fundamentals teaches you how to develop pixel-perfect dashboards that conform to your organization’s brand identity and provide a refined end-user experience.\n\nLearn an easy and fast way to create dynamic dashboards which allow users to explore and understand large amounts of data using a variety of charts and tables to drill into the exact data they want.",
+        "headline": "Aprenda a criar painéis dinâmicos com grande liberdade de customização, que permitam aos usuários explorar e entender grandes quantidades de dados, utilizando uma variedade de gráficos e tabelas para detalhar os dados da maneira desejada.",
+        "description": "### Ementa\n\n* **Módulo 1** Criação de painéis\n* **Módulo 2** Arquitetura ctools\n* **Módulo 3** Introdução ao cdf e cde\n* **Módulo 4** Criando fontes de dados para painéis com CDA\n* **Módulo 5** Adicionando componentes ao panel\n* **Módulo 6** Configurando gráficos com CCC\n* **Módulo 7** Interação entre componentes\n* **Módulo 8** Widgets CDE\n\n### Objetivos do Curso\n* Aprenda como criar relatórios e painéis perfeitos;\n* Equipe-se com as melhores práticas e técnicas de relatórios para CTools para melhorar a velocidade na criação de conteúdo;\n* Conceitos e Desenvolvimento de Dashboards;\n* Criação e configuração de parâmetros no Dashboard;\n* Reproduzir uma abordagem ”top-down“ no design de painéis;\n* Entender o propósito do framework de painel como um CDF;\n* Entender os propósitos e usos do núcleo CTools: CDA, CDE, e CCC;\n* Identificar a tecnologia usada no CTools;\n* Reproduzir o ambiente de treinamento CTools;\n* Criar layout para um painel utilizando o CDE;\n* Entender os fundamentos por trás do ciclo de vida do CDE;\n* Entender a perspectiva das Fontes de Dados do CDE;\n* Utilizar o Mondrian como Fonte de Dados em um Painel;\n* Entender a perspectiva dos Componentes CDE;\n* Adicionar um componente do tipo “table componente” no painel;\n* Entender o CCC e CCC2;\n* Adicionar um gráfico de pizza e um de linha ao painel;\n* Usar a documentação CTools, para encontrar “extension points“ para gráficos personalizados;\n* Tornar o seu painel parametrizável;\n* Especificar os “parameters and listeners“ dos componentes do painel;\n* Adicionar componentes do tipo seletor em um painel;\n* Descrever como ”widgets“ são usados com painéis CDE;\n\n### Público Alvo\n\nEste curso foi desenvolvido para administradores de sistema, integradores de sistema, desenvolvedores de conteúdo, desenvolvedores de software, consultores de BI e outros com experiência em criar soluções BI.\nEste curso é válido para qualquer usuário que tiver um entendimento básico de SQL e conceitos de banco dados relacional.\n\n### Formas de Pagamento\n\nCartão, Boleto, Empenho ou Faturado para empresa.",
         "icon": "trending_up",
         "image": "assets/img/ct1000.jpg",
         "tags": [
@@ -127,8 +143,8 @@
         ],
         "level": "Intermediário",
         "name": "Pentaho Data Integration Fundamentals",
-        "headline": "The volume, variety and velocity of data are increasing rapidly.  Organizations need fast and easy-to-use tools to harness data for actionable insight.",
-        "description": "The volume, variety and velocity of data are increasing rapidly.  Organizations need fast and easy-to-use tools to harness data for actionable insight. One of the biggest challenges facing organizations today is the requirement to provide a consistent, single version of the truth across all sources of information in an analytics-ready format. \n\nWith powerful data extract, transform and load (ETL) capabilities, an intuitive and rich graphical design environment, and an open and standards-based architecture, Pentaho Data Integration is increasingly the choice over proprietary and homegrown data integration tools.",
+        "headline": "O volume, a variedade e a velocidade dos dados estão crescendo rapidamente. Aprenda a dominar a melhor Ferramenta de ETL Opensource.",
+        "description": "### Ementa\n\n* **Módulo 1** Introdução ao pentaho data integration;\n* **Módulo 2** Transformações;\n* **Módulo 3** Lendo e gravando em arquivos;\n* **Módulo 4** Trabalhando com bancos de dados;\n* **Módulo 5** Fluxo de dados e pesquisas;\n* **Módulo 6** Cálculos;\n* **Módulo 7** Orquestração de jobs;\n* **Módulo 8** Agendamento;\n* **Módulo 9** Explorando repositórios de integração de dados;\n* **Módulo 10** Registro detalhado.\n\n### Objetivos do Curso\n\n* Melhora a produtividade dando ao seu time de integração de dados as habilidades que eles precisam para prosperar com o Pentaho Data Integration\n* Aprenda a entregar dados a uma ampla variedade de aplicações utilizando a padronização disponibilizada pela Pentaho, enriquecendo e qualificando seus dados\n* Materiais interativos de treinamento melhoram significativamente o desenvolvimento de habilidades e maximizam a absorção\n* Criar, pré visualizar e executar transformações básicas contento steps e hops\n* Ver os resultados das transformações, visualização da performance dos Steps e visualização de Log\n* Criar transformações reutilizáveis, usando valores parametrizados e variáveis de ambiente\n* Utilizar o Repositório Empresarial Pentaho para: criar pastas, armazenar transformações e jobs, mover, travar, revisar, apagar, e restaurar artefatos\n* Aprender como utilizar os steps da transformação para executar cálculos complexos no fluxo de dados\n* Configurar a manipulação de erros dos steps da transformação\n* Criar uma conexão com banco de dados e usar o Explorador de Banco de  Dados para interagir com as fontes\n* Criar transformações, que envolve configurar os seguintes steps: Table input, Table output, Text file output, CSV file input, Insert/Update, Add constants, Filter, Value Mapper, Stream lookup, Join rows, Merge join, Sort rows, JavaScript, Database Lookup e Set Environment Variables\n* Usar o Pentaho Data Integration para limpar e corrigir dados\n* Carregar e gravar em diferentes fontes de dados\n* Configurar o Repositório Empresarial Pentaho, incluindo segurança básica\n* Criar jobs que: executam múltiplas transformações, usam variáveis, contém sub-jobs, fornecem notificação embutida de erros, carregar e processar múltiplos arquivos de texto e convertem arquivos no formato Microsoft Excel\n* Configurar os logs dos steps da transformação e do job. Examinar os dados gravados\n* Agendar e monitorar a execução de uma transformação no Pentaho Data Integration\n\n### Público Alvo\n\nEste curso foi desenvolvido para administradores de sistema, integradores de sistema, desenvolvedores de conteúdo, desenvolvedores de software, consultores de BI e outros com experiência em criar soluções BI. Este curso é válido para qualquer usuário que tiver um entendimento básico de SQL e conceitos de banco dados relacional.\n\n### Formas de Pagamento\n\nCartão, Boleto, Empenho ou Faturado para empresa.",
         "icon": "usb",
         "image": "assets/img/di1000.jpg",
         "tags": [
