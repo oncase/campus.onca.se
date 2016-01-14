@@ -7,17 +7,17 @@
 
 
 
-<md-content md-theme="{{ dark ? 'docs-dark' : 'default' }}" layout-gt-sm="row" layout-align="center center" layout-padding  layout-wrap >
+<md-content md-theme="{{ dark ? 'docs-dark' : 'default' }}" layout="row" layout-align="center center" layout-padding  layout-wrap >
   <div flex="100" layout-align="center center" layout-margin>
     <p class="text-center">
       Escreva pra gente{{contactCtrl.getAdditionalMsg()}}. Dentro do horário comercial respondemos em até 2h.
     </p>
   </div>
-  <md-input-container flex="40">
+  <md-input-container flex="40" flex-xs="80" flex-sm="80">
     <label>Nome</label>
     <input ng-model="contactCtrl.contactInfo.name">
   </md-input-container>
-  <md-input-container flex="40">
+  <md-input-container flex="40" flex-xs="80" flex-sm="80">
     <label>Email</label>
     <input ng-model="contactCtrl.contactInfo.email" type="email">
   </md-input-container>
