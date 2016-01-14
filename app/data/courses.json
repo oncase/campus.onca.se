@@ -155,25 +155,5 @@
         ],
         "classes": [],
         "workload": 24
-    },
-    {
-        "id": "DI2000",
-        "audience": [
-            "Analista de Dados"
-        ],
-        "level": "Avançado",
-        "name": "Pentaho and Hadoop Framework Fundamentals",
-        "headline": "This course is designed to introduce you to various big data concepts with the Hadoop framework of technologies and Pentaho products.",
-        "description": "This course is designed to introduce you to various big data concepts with the Hadoop framework of technologies and Pentaho products. Building upon Pentaho Data Integration Fundamentals, you will learn how Pentaho works with the following Hadoop Framework technologies:\nHDFSSqoopPigOozieMapReduceYARNHiveImpalaHBaseFlume\nThis course focuses heavily on labs to allow you practical hands-on application of the topics covered in each section.\n",
-        "icon": "fitness_center",
-        "image": "assets/img/di2000.jpg",
-        "tags": [
-            "Plataforma",
-            "Pentaho",
-            "Report Designer",
-            "Relatórios"
-        ],
-        "classes": [],
-        "workload": 24
     }
 ]
