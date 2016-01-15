@@ -51,8 +51,8 @@ define(
 						],
 						social:{
 							twitter : "https://twitter.com/marpontes",
-							github : "https://github.com/marpontes",
-							linkedin : "https://linkedin.com/in/marpontes"
+							github : "https://github.com/llms",
+							linkedin : "https://br.linkedin.com/in/leonardoluiz14"
 						}
 					},
 					{
@@ -98,9 +98,9 @@ define(
 							"Estuda correlação de variáveis no Tinder"
 						],
 						social:{
-							twitter : "https://twitter.com/marpontes",
-							github : "https://github.com/marpontes",
-							linkedin : "https://linkedin.com/marpontes"
+							twitter : "https://twitter.com/alvarobasto",
+							github : "",
+							linkedin : "https://br.linkedin.com/in/alvarobasto"
 						}
 					}
 				], _ordered=false;;
