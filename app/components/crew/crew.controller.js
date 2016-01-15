@@ -50,8 +50,7 @@ define(
 							"Mais horas de projetos Pentaho do que de GoT"
 						],
 						social:{
-							twitter : "https://twitter.com/marpontes",
-							github : "https://github.com/llms",
+							twitter : "https://twitter.com/leonardo_luiz",
 							linkedin : "https://br.linkedin.com/in/leonardoluiz14"
 						}
 					},
@@ -66,9 +65,8 @@ define(
 							"Frequentemente aplica Analytics na arte de velejar"
 						],
 						social:{
-							twitter : "https://twitter.com/marpontes",
-							github : "https://github.com/marpontes",
-							linkedin : "https://linkedin.com/in/marpontes"
+							twitter : "https://twitter.com/iandecoutinho",
+							linkedin : "https://www.linkedin.com/in/iandecoutinho"
 						}
 					},
 					{
@@ -82,9 +80,8 @@ define(
 							"O próximo Zuckerberg"
 						],
 						social:{
-							twitter : "https://twitter.com/marpontes",
-							github : "https://github.com/marpontes",
-							linkedin : "https://linkedin.com/in/marpontes"
+							twitter : "https://twitter.com/maialson",
+							github : "https://github.com/mailsonsantos"
 						}
 					},
 					{
@@ -99,7 +96,6 @@ define(
 						],
 						social:{
 							twitter : "https://twitter.com/alvarobasto",
-							github : "",
 							linkedin : "https://br.linkedin.com/in/alvarobasto"
 						}
 					}
