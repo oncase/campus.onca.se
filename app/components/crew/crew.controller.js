@@ -70,21 +70,6 @@ define(
 						}
 					},
 					{
-						name: "Mailson Santos",
-						img: "assets/img/crew/mailson.jpg",
-						headline : "Data Scientist",
-						bio:[
-							"Mestre em Mineração de dados pela UFPE",
-							"Experiência de mais de 5 anos com Pentaho",
-							"Diversos papers na área de Analytics",
-							"O próximo Zuckerberg"
-						],
-						social:{
-							twitter : "https://twitter.com/maialson",
-							github : "https://github.com/mailsonsantos"
-						}
-					},
-					{
 						name: "Álvaro Basto",
 						img: "assets/img/crew/alvaro.jpg",
 						headline : "Support Leader",
