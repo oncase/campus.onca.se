@@ -36,6 +36,18 @@
               "dateFrom": "2016-03-06"
           },
           {
+              "info": "* Horário **14/03 a 18/03** - 08:00 - 18:00\n\n**Local:** A definir\n\n**Materia Didático:** Impresso",
+              "where": "São Paulo",
+              "dateTo": "2016-03-19",
+              "dateFrom": "2016-03-15"
+          },
+          {
+              "info": "* Horário **18/04 a 22/04** - 08:00 - 18:00\n\n**Local:** A definir\n\n**Materia Didático:** Impresso",
+              "where": "Brasília",
+              "dateTo": "2016-04-23",
+              "dateFrom": "2016-04-19"
+          },
+          {
               "info": "* Horário **07/05** - 08:00 - 18:00\n* Horário **14/05** - 08:00 - 18:00\n* Horário **21/05** - 08:00 - 18:00\n* Horário **28/05** - 08:00 - 18:00\n\n**Local:** On-line\n\n**Materia Didático:** Digital",
               "where": "On-line",
               "dateTo": "2016-05-29",
