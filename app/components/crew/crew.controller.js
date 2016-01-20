@@ -76,8 +76,7 @@ define(
 						bio:[
 							"Profissional Certificado Pentaho",
 							"Head de suporte ao produto Pentaho na Oncase",
-							"Experiência de mais de 5 anos com Pentaho",
-							"Estuda correlação de variáveis no Tinder"
+							"Experiência de mais de 5 anos com Pentaho"
 						],
 						social:{
 							twitter : "https://twitter.com/alvarobasto",

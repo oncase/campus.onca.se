@@ -30,10 +30,22 @@
               "dateFrom": "2016-02-16"
           },
           {
-              "info": "* Horário **05/03** - 08:00 - 18:00\n* Horário **12/03** - 08:00 - 18:00\n* Horário **19/03** - 08:00 - 18:00\n* Horário **26/03** - 08:00 - 18:00\n\n**Local:** On-line\n\n**Materia Didático:** Digital",
-              "where": "On-line",
+              "info": "* Horário **05/03** - 08:00 - 18:00\n* Horário **12/03** - 08:00 - 18:00\n* Horário **19/03** - 08:00 - 18:00\n* Horário **26/03** - 08:00 - 18:00\n\n**Local:** On-line ao Vivo\n\n**Materia Didático:** Digital",
+              "where": "On-line ao Vivo",
               "dateTo": "2016-03-27",
               "dateFrom": "2016-03-06"
+          },
+          {
+              "info": "* Horário **04/03 a 08/03** - 18:00 - 22:00\n* Horário **09/03** - 08:00 - 18:00\n* Horário **10/03** - 08:00 - 12:00\n\n**Local:** On-line ao Vivo\n\n**Materia Didático:** Digital",
+              "where": "On-line ao Vivo",
+              "dateTo": "2016-03-11",
+              "dateFrom": "2016-03-05"
+          },
+          {
+              "info": "* Horário **14/03 a 18/03** - 08:00 - 18:00\n\n**Local:** On-line ao Vivo\n\n**Materia Didático:** Digital",
+              "where": "On-line ao Vivo",
+              "dateTo": "2016-03-18",
+              "dateFrom": "2016-03-15"
           },
           {
               "info": "* Horário **14/03 a 18/03** - 08:00 - 18:00\n\n**Local:** A definir\n\n**Materia Didático:** Impresso",
@@ -48,14 +60,14 @@
               "dateFrom": "2016-04-19"
           },
           {
-              "info": "* Horário **07/05** - 08:00 - 18:00\n* Horário **14/05** - 08:00 - 18:00\n* Horário **21/05** - 08:00 - 18:00\n* Horário **28/05** - 08:00 - 18:00\n\n**Local:** On-line\n\n**Materia Didático:** Digital",
-              "where": "On-line",
+              "info": "* Horário **07/05** - 08:00 - 18:00\n* Horário **14/05** - 08:00 - 18:00\n* Horário **21/05** - 08:00 - 18:00\n* Horário **28/05** - 08:00 - 18:00\n\n**Local:** On-line ao Vivo\n\n**Materia Didático:** Digital",
+              "where": "On-line ao Vivo",
               "dateTo": "2016-05-29",
               "dateFrom": "2016-05-08"
           },
           {
-              "info": "* Horário **09/07** - 08:00 - 18:00\n* Horário **16/07** - 08:00 - 18:00\n* Horário **23/07** - 08:00 - 18:00\n* Horário **30/07** - 08:00 - 18:00\n\n**Local:** On-line\n\n**Materia Didático:** Digital",
-              "where": "On-line",
+              "info": "* Horário **09/07** - 08:00 - 18:00\n* Horário **16/07** - 08:00 - 18:00\n* Horário **23/07** - 08:00 - 18:00\n* Horário **30/07** - 08:00 - 18:00\n\n**Local:** On-line ao Vivo\n\n**Materia Didático:** Digital",
+              "where": "On-line ao Vivo",
               "dateTo": "2016-07-31",
               "dateFrom": "2016-07-10"
           }
@@ -165,7 +177,14 @@
             "Report Designer",
             "Relatórios"
         ],
-        "classes": [],
+        "classes": [
+          {
+              "info": "* Horário **07/03 a 09/03** - 08:00 - 18:00\n\n**Local:** On-line ao Vivo\n\n**Materia Didático:** Digital",
+              "where": "On-line ao Vivo",
+              "dateTo": "2016-03-10",
+              "dateFrom": "2016-03-08"
+          }
+        ],
         "workload": 24
     }
 ]
