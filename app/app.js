@@ -11,7 +11,9 @@ define(
 			'ngLocale',
 			'ngMaterial',
 			'ui.router',
-			'components.module'
+			'components.module',
+			'angulartics',
+			'angulartics.google.tagmanager'
 		])
 		.config(function($mdThemingProvider){
 

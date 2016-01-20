@@ -10,12 +10,20 @@ require.config({
     json : '../node_modules/requirejs-plugins/src/json',
     ngSanitize : '../node_modules/angular-sanitize/angular-sanitize.min',
     showdown : '../node_modules/showdown/dist/showdown',
-    ngRouter : '../node_modules/angular-ui-router/release/angular-ui-router.min'
+    ngRouter : '../node_modules/angular-ui-router/release/angular-ui-router.min',
+    angulartics : '../node_modules/angulartics/dist/angulartics.min',
+    angularticsGTM : '../node_modules/angulartics/dist/angulartics-gtm.min'
 
   },
   shim: {
     angular : {
       'exports' : 'angular'
+    },
+    angulartics : {
+      deps : ["angular"]
+    },
+    angularticsGTM : {
+      deps : ["angulartics"]
     },
     ngLocale : {
       deps : ["angular"]
@@ -54,7 +62,9 @@ require([
           'ngMaterial',
           'ngRouter',
           'ngLocale',
-          'app'
+          'angulartics',
+          'angularticsGTM',
+          'app',
         ],
         function(angular, ngAnimate, ngAria, ngMaterial) {
 
