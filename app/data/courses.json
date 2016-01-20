@@ -31,19 +31,19 @@
           },
           {
               "info": "* Horário **05/03** - 08:00 - 18:00\n* Horário **12/03** - 08:00 - 18:00\n* Horário **19/03** - 08:00 - 18:00\n* Horário **26/03** - 08:00 - 18:00\n\n**Local:** On-line ao Vivo\n\n**Materia Didático:** Digital",
-              "where": "On-line ao Vivo",
+              "where": "On-line (Ao Vivo) - Weekends",
               "dateTo": "2016-03-27",
               "dateFrom": "2016-03-06"
           },
           {
               "info": "* Horário **04/03 a 08/03** - 18:00 - 22:00\n* Horário **09/03** - 08:00 - 18:00\n* Horário **10/03** - 08:00 - 12:00\n\n**Local:** On-line ao Vivo\n\n**Materia Didático:** Digital",
-              "where": "On-line ao Vivo",
+              "where": "On-line (Ao Vivo) - Noturno",
               "dateTo": "2016-03-11",
               "dateFrom": "2016-03-05"
           },
           {
               "info": "* Horário **14/03 a 18/03** - 08:00 - 18:00\n\n**Local:** On-line ao Vivo\n\n**Materia Didático:** Digital",
-              "where": "On-line ao Vivo",
+              "where": "On-line (Ao Vivo) - Diurno",
               "dateTo": "2016-03-18",
               "dateFrom": "2016-03-15"
           },
@@ -61,18 +61,45 @@
           },
           {
               "info": "* Horário **07/05** - 08:00 - 18:00\n* Horário **14/05** - 08:00 - 18:00\n* Horário **21/05** - 08:00 - 18:00\n* Horário **28/05** - 08:00 - 18:00\n\n**Local:** On-line ao Vivo\n\n**Materia Didático:** Digital",
-              "where": "On-line ao Vivo",
+              "where": "On-line (Ao Vivo)",
               "dateTo": "2016-05-29",
               "dateFrom": "2016-05-08"
           },
           {
               "info": "* Horário **09/07** - 08:00 - 18:00\n* Horário **16/07** - 08:00 - 18:00\n* Horário **23/07** - 08:00 - 18:00\n* Horário **30/07** - 08:00 - 18:00\n\n**Local:** On-line ao Vivo\n\n**Materia Didático:** Digital",
-              "where": "On-line ao Vivo",
+              "where": "On-line (Ao Vivo)",
               "dateTo": "2016-07-31",
               "dateFrom": "2016-07-10"
           }
         ],
         "workload": 36
+    },
+    {
+        "id": "DI1000",
+        "audience": [
+            "Analista de Dados"
+        ],
+        "level": "Intermediário",
+        "name": "Pentaho Data Integration Fundamentals",
+        "headline": "O volume, a variedade e a velocidade dos dados estão crescendo rapidamente. Aprenda a dominar a melhor Ferramenta de ETL Opensource.",
+        "description": "### Ementa\n\n* **Módulo 1** Introdução ao pentaho data integration;\n* **Módulo 2** Transformações;\n* **Módulo 3** Lendo e gravando em arquivos;\n* **Módulo 4** Trabalhando com bancos de dados;\n* **Módulo 5** Fluxo de dados e pesquisas;\n* **Módulo 6** Cálculos;\n* **Módulo 7** Orquestração de jobs;\n* **Módulo 8** Agendamento;\n* **Módulo 9** Explorando repositórios de integração de dados;\n* **Módulo 10** Registro detalhado.\n\n### Objetivos do Curso\n\n* Melhora a produtividade dando ao seu time de integração de dados as habilidades que eles precisam para prosperar com o Pentaho Data Integration\n* Aprenda a entregar dados a uma ampla variedade de aplicações utilizando a padronização disponibilizada pela Pentaho, enriquecendo e qualificando seus dados\n* Materiais interativos de treinamento melhoram significativamente o desenvolvimento de habilidades e maximizam a absorção\n* Criar, pré visualizar e executar transformações básicas contento steps e hops\n* Ver os resultados das transformações, visualização da performance dos Steps e visualização de Log\n* Criar transformações reutilizáveis, usando valores parametrizados e variáveis de ambiente\n* Utilizar o Repositório Empresarial Pentaho para: criar pastas, armazenar transformações e jobs, mover, travar, revisar, apagar, e restaurar artefatos\n* Aprender como utilizar os steps da transformação para executar cálculos complexos no fluxo de dados\n* Configurar a manipulação de erros dos steps da transformação\n* Criar uma conexão com banco de dados e usar o Explorador de Banco de  Dados para interagir com as fontes\n* Criar transformações, que envolve configurar os seguintes steps: Table input, Table output, Text file output, CSV file input, Insert/Update, Add constants, Filter, Value Mapper, Stream lookup, Join rows, Merge join, Sort rows, JavaScript, Database Lookup e Set Environment Variables\n* Usar o Pentaho Data Integration para limpar e corrigir dados\n* Carregar e gravar em diferentes fontes de dados\n* Configurar o Repositório Empresarial Pentaho, incluindo segurança básica\n* Criar jobs que: executam múltiplas transformações, usam variáveis, contém sub-jobs, fornecem notificação embutida de erros, carregar e processar múltiplos arquivos de texto e convertem arquivos no formato Microsoft Excel\n* Configurar os logs dos steps da transformação e do job. Examinar os dados gravados\n* Agendar e monitorar a execução de uma transformação no Pentaho Data Integration\n\n### Público Alvo\n\nEste curso foi desenvolvido para administradores de sistema, integradores de sistema, desenvolvedores de conteúdo, desenvolvedores de software, consultores de BI e outros com experiência em criar soluções BI. Este curso é válido para qualquer usuário que tiver um entendimento básico de SQL e conceitos de banco dados relacional.\n\n### Formas de Pagamento\n\nCartão, Boleto, Empenho ou Faturado para empresa.",
+        "icon": "usb",
+        "image": "assets/img/di1000.jpg",
+        "tags": [
+            "Plataforma",
+            "Pentaho",
+            "Report Designer",
+            "Relatórios"
+        ],
+        "classes": [
+          {
+              "info": "* Horário **07/03 a 09/03** - 08:00 - 18:00\n\n**Local:** On-line ao Vivo\n\n**Materia Didático:** Digital",
+              "where": "On-line (Ao vivo) - Diurno",
+              "dateTo": "2016-03-10",
+              "dateFrom": "2016-03-08"
+          }
+        ],
+        "workload": 24
     },
     {
         "id": "BA1000",
@@ -159,32 +186,5 @@
         ],
         "classes": [],
         "workload": 16
-    },
-    {
-        "id": "DI1000",
-        "audience": [
-            "Analista de Dados"
-        ],
-        "level": "Intermediário",
-        "name": "Pentaho Data Integration Fundamentals",
-        "headline": "O volume, a variedade e a velocidade dos dados estão crescendo rapidamente. Aprenda a dominar a melhor Ferramenta de ETL Opensource.",
-        "description": "### Ementa\n\n* **Módulo 1** Introdução ao pentaho data integration;\n* **Módulo 2** Transformações;\n* **Módulo 3** Lendo e gravando em arquivos;\n* **Módulo 4** Trabalhando com bancos de dados;\n* **Módulo 5** Fluxo de dados e pesquisas;\n* **Módulo 6** Cálculos;\n* **Módulo 7** Orquestração de jobs;\n* **Módulo 8** Agendamento;\n* **Módulo 9** Explorando repositórios de integração de dados;\n* **Módulo 10** Registro detalhado.\n\n### Objetivos do Curso\n\n* Melhora a produtividade dando ao seu time de integração de dados as habilidades que eles precisam para prosperar com o Pentaho Data Integration\n* Aprenda a entregar dados a uma ampla variedade de aplicações utilizando a padronização disponibilizada pela Pentaho, enriquecendo e qualificando seus dados\n* Materiais interativos de treinamento melhoram significativamente o desenvolvimento de habilidades e maximizam a absorção\n* Criar, pré visualizar e executar transformações básicas contento steps e hops\n* Ver os resultados das transformações, visualização da performance dos Steps e visualização de Log\n* Criar transformações reutilizáveis, usando valores parametrizados e variáveis de ambiente\n* Utilizar o Repositório Empresarial Pentaho para: criar pastas, armazenar transformações e jobs, mover, travar, revisar, apagar, e restaurar artefatos\n* Aprender como utilizar os steps da transformação para executar cálculos complexos no fluxo de dados\n* Configurar a manipulação de erros dos steps da transformação\n* Criar uma conexão com banco de dados e usar o Explorador de Banco de  Dados para interagir com as fontes\n* Criar transformações, que envolve configurar os seguintes steps: Table input, Table output, Text file output, CSV file input, Insert/Update, Add constants, Filter, Value Mapper, Stream lookup, Join rows, Merge join, Sort rows, JavaScript, Database Lookup e Set Environment Variables\n* Usar o Pentaho Data Integration para limpar e corrigir dados\n* Carregar e gravar em diferentes fontes de dados\n* Configurar o Repositório Empresarial Pentaho, incluindo segurança básica\n* Criar jobs que: executam múltiplas transformações, usam variáveis, contém sub-jobs, fornecem notificação embutida de erros, carregar e processar múltiplos arquivos de texto e convertem arquivos no formato Microsoft Excel\n* Configurar os logs dos steps da transformação e do job. Examinar os dados gravados\n* Agendar e monitorar a execução de uma transformação no Pentaho Data Integration\n\n### Público Alvo\n\nEste curso foi desenvolvido para administradores de sistema, integradores de sistema, desenvolvedores de conteúdo, desenvolvedores de software, consultores de BI e outros com experiência em criar soluções BI. Este curso é válido para qualquer usuário que tiver um entendimento básico de SQL e conceitos de banco dados relacional.\n\n### Formas de Pagamento\n\nCartão, Boleto, Empenho ou Faturado para empresa.",
-        "icon": "usb",
-        "image": "assets/img/di1000.jpg",
-        "tags": [
-            "Plataforma",
-            "Pentaho",
-            "Report Designer",
-            "Relatórios"
-        ],
-        "classes": [
-          {
-              "info": "* Horário **07/03 a 09/03** - 08:00 - 18:00\n\n**Local:** On-line ao Vivo\n\n**Materia Didático:** Digital",
-              "where": "On-line ao Vivo",
-              "dateTo": "2016-03-10",
-              "dateFrom": "2016-03-08"
-          }
-        ],
-        "workload": 24
     }
 ]
