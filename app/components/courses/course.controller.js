@@ -28,7 +28,7 @@ define(
 					    $mdDialog.show({
 					      controller: function($scope, $mdDialog, course){
 									this.course = course;
-									this.url = "http://campus.oncase.com.br/#/courses/"+course.id;
+									this.url = "http://campus.oncase.com.br/courses/"+course.id;
 									this.close = function(){
 										$mdDialog.cancel();
 									};
