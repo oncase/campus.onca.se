@@ -23,7 +23,7 @@ require.config({
       deps : ["angular"]
     },
     angularticsGTM : {
-      deps : ["angulartics"]
+      deps : ["angular","angulartics"]
     },
     ngLocale : {
       deps : ["angular"]

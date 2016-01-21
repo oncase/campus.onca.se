@@ -80,6 +80,9 @@ define(
         templateUrl: "app/partials/courses.details.html"
       });
 
+			// use the HTML5 History API
+			$locationProvider.html5Mode(true);
+
 		})
 		.config(function($mdDateLocaleProvider, $localeProvider, $filterProvider){
 			var dtFormat = $localeProvider.$get().DATETIME_FORMATS;
