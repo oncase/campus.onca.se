@@ -11,7 +11,9 @@ define(
 			'ngLocale',
 			'ngMaterial',
 			'ui.router',
-			'components.module'
+			'components.module',
+			'angulartics',
+			'angulartics.google.tagmanager'
 		])
 		.config(function($mdThemingProvider){
 
@@ -77,6 +79,9 @@ define(
 				parent : "courses",
         templateUrl: "app/partials/courses.details.html"
       });
+
+			// use the HTML5 History API
+			$locationProvider.html5Mode(true);
 
 		})
 		.config(function($mdDateLocaleProvider, $localeProvider, $filterProvider){
