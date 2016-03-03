@@ -10,9 +10,9 @@
             "Usuário de Negócio"
         ],
         "level": "Iniciante",
-        "name": "Business Analytics com Pentaho CE\n(Presencial ou On-line)",
+        "name": "Business Analytics com Pentaho CE Online",
         "headline": "Esse curso é para você que quer se especializar em Business Analytics com Pentaho, a área que mais cresce no Brasil, segundo a Gartner.",
-        "description": "## Plataforma Pentaho\n\n* **Módulo 1** Instalação da Suíte Pentaho\n* **Módulo 2** Visão geral das Soluções de Análise\n* **Módulo 3** Saiku Community\n* **Módulo 4** Modelagem Dimensional\n* **Módulo 5** Adicionando Fonte de Dados\n* **Módulo 6** ETL e visão geral do Pentaho Data Integration\n* **Módulo 7** Pentaho Analyzer\n* **Módulo 8** Schema Workbench\n* **Módulo 9** Report Designer\n* **Módulo 10** Marketplace\n* **Módulo 11** Dashboard (Ctools)\n\n### Objetivos do Curso\n\n* Entender a arquitetura do Pentaho BI Suite;\n* Criar uma solução Pentaho BI do início ao fim;\n* Demonstrar a um usuário final as capacidades do Pentaho BI Server;\n* Usar o Pentaho Data Integration para popular um Data Warehouse;\n* Realizar transformações sobre dados;\n* Desenvolver esquemas OLAP e usá-los com Pentaho;\n* Construir e implantar relatórios;\n* Descobrir maneiras diferente de criar um Dashboard.\n\n### Público Alvo\nEsse curso é para você que quer se especializar em Business Analytics com Pentaho, a área que mais cresce no Brasil, segundo a Gartner. Este curso é válido para qualquer usuário que tiver um entendimento básico de SQL e conceitos de banco de dados relacional.\n\n### Formas de Pagamento\n\nCartão, Boleto, Empenho ou Faturado para empresa.\n\n**ATENÇÃO:** Oferecemos desconto de 10% para universitários.",
+        "description": "### Objetivos do Curso\n\n* Entender toda a arquitetura da plataforma Pentaho;\n* Criar uma solução de Business Inteligence de ponta a ponta;\n* Entender e aplicar a capacidade do Pentaho Data Integration em integração de dados;\n* Aprender a modelar e visualizar esquemas OLAP;\n* Construir e implantar relatórios;\n* Desenvolver Dashboards criativos e interativos.\n\n###Plataforma Pentaho\n\n* **Módulo 1** Instalação da Suíte Pentaho\n* **Módulo 2** Visão geral das Soluções de Análise\n* **Módulo 3** Saiku Community\n* **Módulo 4** Modelagem Dimensional\n* **Módulo 5** Adicionando Fonte de Dados\n* **Módulo 6** ETL e visão geral do Pentaho Data Integration\n* **Módulo 7** Pentaho Analyzer\n* **Módulo 8** Schema Workbench\n* **Módulo 9** Report Designer\n* **Módulo 10** Marketplace\n* **Módulo 11** Dashboard (Ctools)\n\n### Público Alvo\nBusiness Inteligence é uma das áreas que mais cresce no Brasil, segundo a Gartner, esse curso é para você que quer estar preparado para as oportunidades do mercado.\n\n Curso válido para qualquer usuário que tenha entendimento básico em tecnologia.\n\n",
         "icon": "equalizer",
         "image": "assets/img/PECE7000.jpg",
         "tags": [
@@ -27,30 +27,12 @@
           {
 
             "info": "**Local:** On-line \n\n**Materia Didático:** Digital\n\n [Link em breve](/#/courses/PECE7000)",
-            "where": "On-line",
+            "where": "Online",
             "dateTo": "2016-03-26",
             "dateFrom": "2016-03-22"
-            },
-          {
-              "info": "* Horário **18/04 a 22/04** - 08:00 - 18:00\n\n**Local:** A definir\n\n**Materia Didático:** Impresso",
-              "where": "Brasília",
-              "dateTo": "2016-04-23",
-              "dateFrom": "2016-04-19"
-          },
-          {
-              "info": "* Horário **07/05** - 08:00 - 18:00\n* Horário **14/05** - 08:00 - 18:00\n* Horário **21/05** - 08:00 - 18:00\n* Horário **28/05** - 08:00 - 18:00\n\n**Local:** On-line\n\n**Materia Didático:** Digital",
-              "where": "On-line",
-              "dateTo": "2016-05-29",
-              "dateFrom": "2016-05-08"
-          },
-          {
-              "info": "* Horário **09/07** - 08:00 - 18:00\n* Horário **16/07** - 08:00 - 18:00\n* Horário **23/07** - 08:00 - 18:00\n* Horário **30/07** - 08:00 - 18:00\n\n**Local:** On-line\n\n**Materia Didático:** Digital",
-              "where": "On-line",
-              "dateTo": "2016-07-31",
-              "dateFrom": "2016-07-10"
-          }
+            }
         ],
-        "workload": 36
+        "workload": 60
     },
     {
         "id": "DI1000",
