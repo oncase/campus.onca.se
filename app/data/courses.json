@@ -12,7 +12,7 @@
         "level": "Iniciante",
         "name": "Business Analytics com Pentaho CE Online",
         "headline": "Esse curso é para você que quer se especializar em Business Analytics com Pentaho, a área que mais cresce no Brasil, segundo a Gartner.",
-        "description": "### Objetivos do Curso\n\n* Entender toda a arquitetura da plataforma Pentaho;\n* Criar uma solução de Business Inteligence de ponta a ponta;\n* Entender e aplicar a capacidade do Pentaho Data Integration em integração de dados;\n* Aprender a modelar e visualizar esquemas OLAP;\n* Construir e implantar relatórios;\n* Desenvolver Dashboards criativos e interativos.\n\n###Plataforma Pentaho\n\n* **Módulo 1** Instalação da Suíte Pentaho\n* **Módulo 2** Visão geral das Soluções de Análise\n* **Módulo 3** Saiku Community\n* **Módulo 4** Modelagem Dimensional\n* **Módulo 5** Adicionando Fonte de Dados\n* **Módulo 6** ETL e visão geral do Pentaho Data Integration\n* **Módulo 7** Pentaho Analyzer\n* **Módulo 8** Schema Workbench\n* **Módulo 9** Report Designer\n* **Módulo 10** Marketplace\n* **Módulo 11** Dashboard (Ctools)\n\n### Público Alvo\nBusiness Inteligence é uma das áreas que mais cresce no Brasil, segundo a Gartner, esse curso é para você que quer estar preparado para as oportunidades do mercado.\n\n Curso válido para qualquer usuário que tenha entendimento básico em tecnologia.\n\n",
+        "description": "### Objetivos do Curso\n\n* Entender toda a arquitetura da plataforma Pentaho;\n* Criar uma solução de Business Inteligence de ponta a ponta;\n* Entender e aplicar a capacidade do Pentaho Data Integration em integração de dados;\n* Aprender a modelar e visualizar esquemas OLAP;\n* Construir e implantar relatórios;\n* Desenvolver Dashboards criativos e interativos.\n\n###Plataforma Pentaho\n\n* **Módulo 1** Instalação da Suíte Pentaho\n* **Módulo 2** Visão geral das Soluções de Análise\n* **Módulo 3** Saiku Community\n* **Módulo 4** Modelagem Dimensional\n* **Módulo 5** Adicionando Fonte de Dados\n* **Módulo 6** ETL e visão geral do Pentaho Data Integration\n* **Módulo 7** Pentaho Analyzer\n* **Módulo 8** Schema Workbench\n* **Módulo 9** Report Designer\n* **Módulo 10** Marketplace\n* **Módulo 11** Dashboard (Ctools)\n\n### Público Alvo\nBusiness Inteligence é uma das áreas que mais cresce no Brasil, segundo a Gartner. Esse curso é para você que quer estar preparado para as oportunidades do mercado.\n\n Curso válido para qualquer usuário que tenha entendimento básico em tecnologia.\n\n",
         "icon": "equalizer",
         "image": "assets/img/PECE7000.jpg",
         "tags": [
@@ -28,7 +28,7 @@
 
             "info": "**Local:** On-line \n\n**Materia Didático:** Digital\n\n [Link em breve](/#/courses/PECE7000)",
             "where": "Online",
-            "dateTo": "2016-03-26",
+            "dateTo": "",
             "dateFrom": "2016-03-22"
             }
         ],
